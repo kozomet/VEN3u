@@ -11,7 +11,7 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD_4/variant.m3u8
 #EXTVLCOPT:http-user-agent=WINK/1.31.1 (AndroidTV/9) HlsWinkPlayer
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1_4/variant.m3u8
 #EXTINF:0 group-title="местные", Камера Двор 2 
-rtsp://syno:68d2a939ce604e2542c3889adc12654c@171.33.245.157:554/Sms=2.unicast
+rtsp://syno:088108d50068381598af01d680a7e33b@171.33.245.157:554/Sms=2.unicast
 #EXTINF:-1 group-title="местные",Киносемья
 http://193.242.190.6:8099/85/index.m3u8
 #EXTINF:-1 group-title="местные",Кинопремьера
