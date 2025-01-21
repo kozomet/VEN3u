@@ -70,98 +70,14 @@ https://stream-msk-01.ott.tricolor.tv/dtv/id924_MSKSG-PVR-1--RUTV/04/plst.m3u8?d
 #EXTINF:-1 tvg-id="russian-musicbox" group-title="местные",Russian MusicBox HD
 https://stream-msk-10.ott.tricolor.tv/dtv/id892_MSKSG-PVR-1--Russian_Musicbox_HD/04/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI1NDIxOTAwNzk1ODc0MiIsImV4cCI6MTczNjYyMDAyMSwiaHdpZCI6ImJhNDM4OGI2N2NlNjg5ZmMwYWRlODE3OTlhYWNkZDZhNzg2ZmMxZWI5MzQ4M2YwYTEwMjNhZTViMmMyNDYwM2EiLCJsYXN0X3JlcV9kYXRlIjoxNzM2MDE1MjIxLCJzZXNzaW9uX2lkIjoiOTJhYTUyNTU3NGNmZDI0Yjc0ODNkNzUxZjI4OGIwOWUiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.uLo0cmjeeqr30_OOnEnsGj1VydNMcMt9G-Rr1Tjjt_Q
 
-#EXTINF:-1 group-title="Детские", В гостях у сказки
-http://109.200.130.123:7537/play/a02m
-#EXTINF:-1 group-title="Детские", В гостях у сказки HD
-http://live.admuspeh.my/8133/index.m3u8?token=test
-#EXTINF:-1 group-title="Детские", Детский мир
-http://195.26.83.96:7007/play/14/index.m3u8
-#EXTINF:-1 group-title="Детские", Детское кино International
-https://v2.catcast.tv/content/38720/index.m3u8
-#EXTINF:-1 group-title="Детские", Капитан Фантастика HD
-http://185.23.80.28:8080/KapitanFantastika/index.m3u8?token=test
-#EXTINF:-1 group-title="Детские", Карусель
-http://193.242.190.6:8099/8/index.m3u8
-#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Детские" tvg-id="karusel", Карусель (Архив)
-#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
-https://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL/variant.m3u8
-#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Детские" tvg-id="karusel-pl7", Карусель +7 (Архив)
-#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
-http://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL_7/variant.m3u8
-#EXTINF:-1 group-title="Детские", Карусель International 
-https://cdn2.skygo.mn/live/disk1/Karusel/HLS-FTA/Karusel.m3u8
-#EXTINF:-1 group-title="Детские", КиноМульт
-http://109.200.130.123:7537/play/a024
-#EXTINF:-1 group-title="Детские", Кнопка ТВ 
-http://api.alpaca.t62a.com/hls/9116/stream0.m3u8
-#EXTINF:-1 group-title="Детские", Мама
-http://stv.mediacdn.ru/live/cdn/mama/playlist_sdhigher.m3u8
-#EXTINF:-1 group-title="Детские", Мамонтëнок ТВ
-http://sirius.greenhosting.ru/MamontRu/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Детские", Мульт 
-http://stv.mediacdn.ru/live/cdn/mult/playlist_sdhigh.m3u8
-#EXTINF:-1 group-title="Детские", Мульт HD
-http://stv.mediacdn.ru/live/cdn/mult/playlist_hdhigh.m3u8
 #EXTINF:-1 group-title="Детские", Мультиландия
 http://93.189.224.246:52900/play/a00m/index.m3u8
-#EXTINF:-1 group-title="Детские", Мультимания LV 
-http://sirius.greenhosting.ru/MultimaniaRu/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Детские", Мультимузыка
-http://stv.mediacdn.ru/live/cdn/multimuzika/playlist_sdhigher.m3u8
-#EXTINF:-1 group-title="Детские", О!
-http://130.193.73.10:8937/play/a016
-#EXTINF:-1 group-title="Детские", Радость моя
-https://radm.mediacdn.ru/cdn/radost/playlist_sdhigh.m3u8
-#EXTINF:-1 group-title="Детские", Рыжий 
-http://178.57.121.38:8080/ryzhiy/index.m3u8?token=test
-#EXTINF:-1 group-title="Детские", Смайл ТВ
-https://5d23269b3ec0c.streamlock.net/WEB_Smilik/ngrp:Smilik.stream-adaptive/playlist.m3u8
-#EXTINF:-1 group-title="Детские", Солнце
-http://tv.streams.baikal-telecom.net:8080/Disney/index.m3u8
-#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="?utcstart=${start}&utcend=${end}" group-title="Детские" tvg-id="solnce", Солнце (Архив)
-#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
-http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY/variant.m3u8
-#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="?utcstart=${start}&utcend=${end}" group-title="Детские" tvg-id="solnce-pl7", Солнце +7 (Архив)
-#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer 
-http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY_7/variant.m3u8
-#EXTINF:-1 group-title="Детские", СТС Kids
-http://195.26.83.96:7006/play/a00z/index.m3u8
-#EXTINF:-1 group-title="Детские", СТС Kids HD
-http://130.193.73.10:8937/play/a017
-#EXTINF:-1 group-title="Детские" tvg-id="malysh", СуперГерои
-http://178.124.179.122:8088/Malish/index.m3u8
-#EXTINF:-1 group-title="Детские", Уникум 
-http://178.57.121.38:8080/detsky/index.m3u8?token=test
-#EXTINF:-1 group-title="Детские", Ani
-http://stv.mediacdn.ru/live/cdn/ani/playlist_sdhigh.m3u8
-#EXTINF:-1 group-title="Детские", Cartoon Classics
-http://178.163.88.106:4022/udp/234.0.0.238:2000
-#EXTINF:-1 group-title="Детские", Cartoonito 
-http://135.181.115.81:8000/play/a01f/index.m3u8?token=livetv
-#EXTINF:-1 group-title="Детские", Cartoonito HD
-http://stream01.vnet.am/Channel_120/mono.m3u8
-#EXTINF:-1 group-title="Детские", Cartoon Network
-http://65.21.85.175:8000/play/a00i/index.m3u8?token=livetv
-#EXTINF:-1 group-title="Детские", Duck TV
-https://stream1.cinerama.uz/1271/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Детские", Fox Kids
-http://foxkids-online.ru/hls/test_240p264kbs/index.m3u8
-#EXTINF:-1 group-title="Детские", Gulli Girl
-http://86.57.198.251:8181/play/1091/index.m3u8
-#EXTINF:-1 group-title="Детские", Kids TV HD
-http://origin5.mediacdn.ru/live/kidstv/index.m3u8
 #EXTINF:-1 group-title="Детские", Nickelodeon
 http://135.181.115.81:8000/play/a009/index.m3u8?token=livetv
-#EXTINF:-1 group-title="Детские", Nickelodeon HD
-http://stream01.vnet.am/Channel_114/mono.m3u8
 #EXTINF:-1 group-title="Детские", Nick Jr.
 rtmp://212.0.213.132//NickJr
-#EXTINF:-1 group-title="Детские", Nicktoons
-http://stream01.vnet.am/Boomerang/mono.m3u8
-#EXTINF:-1 group-title="Детские", Sunset Kids 
-https://stream.sunset-media.ru:443/AfBrazXsUK/J9hGT3vYuv/5.m3u8
-#EXTINF:-1 group-title="Детские", TiJi
-http://135.181.115.81:8000/play/a01i/index.m3u8?token=livetv
+
+
 
 #EXTINF:-1 group-title="📽️ Фильмовые",VIP Serial HD
 http://127.0.0.1:6878/ace/getstream?id=d13dd140058b7a528959e2b709aca4111b7cc076&.mp4
@@ -247,6 +163,120 @@ http://127.0.0.1:6878/ace/getstream?id=62f68471bab075eb96e5db4559e7994427db111b&
 http://127.0.0.1:6878/ace/getstream?id=8bff31504247530c1be06395c11c38ecd1895964&.mp4
 #EXTINF:-1 group-title="📽️ Фильмовые",BCU СССР HD
 http://127.0.0.1:6878/ace/getstream?id=59623cb797c031a5aa4922eb219851547cb346b0&.mp4
+
+#EXTINF:-1 group-title="📽️ Фильмовые",BOX Apocalypse HD
+http://live.admuspeh.my/8441/video.m3u8?token=TestuspehTva
+#EXTINF:-1 group-title="📽️ Фильмовые",BOX СССР 4K
+http://live.admuspeh.my/8445/video.m3u8?token=iptvshared
+#EXTINF:-1 group-title="📽️ Фильмовые",BOX Cyber
+http://live.admuspeh.my/8419/video.m3u8?token=TestuspehTva
+#EXTINF:-1 group-title="📽️ Фильмовые",BOX Fantasy
+http://live.admuspeh.my/8430/video.m3u8?token=iptvshared
+#EXTINF:-1 group-title="📽️ Фильмовые",BOX Franchise
+http://live.admuspeh.my/8982/video.m3u8?token=TestuspehTva
+#EXTINF:-1 group-title="📽️ Фильмовые",BOX Gangster
+http://live.admuspeh.my/8985/video.m3u8?token=iptvshared
+#EXTINF:-1 group-title="📽️ Фильмовые",BOX Ghost
+http://live.admuspeh.my/8428/video.m3u8?token=TestuspehTva
+#EXTINF:-1 group-title="📽️ Фильмовые",BOX Hybrid
+http://live.admuspeh.my/8983/video.m3u8?token=iptvshared
+#EXTINF:-1 group-title="📽️ Фильмовые",BOX M.Serial
+http://live.admuspeh.my/8988/video.m3u8?token=TestuspehTva
+#EXTINF:-1 group-title="📽️ Фильмовые",BOX Memory
+http://live.admuspeh.my/8987/index.m3u8?token=iptvshared
+#EXTINF:-1 group-title="📽️ Фильмовые",BOX Oscar
+http://live.admuspeh.my/8986/video.m3u8?token=TestuspehTva
+#EXTINF:-1 group-title="📽️ Фильмовые",BOX Premiere 4K
+http://live.admuspeh.my/8452/video.m3u8?token=4gPHp5ZVYqDAR4oz
+#EXTINF:-1 group-title="📽️ Фильмовые",BOX Remast 4K
+http://live.admuspeh.my/8433/video.m3u8?token=iptvshared
+#EXTINF:-1 group-title="📽️ Фильмовые",BOX Spy
+http://live.admuspeh.my/8354/video.m3u8?token=4gPHp5ZVYqDAR4oz
+#EXTINF:-1 group-title="📽️ Фильмовые",BOX ULTRASTARS
+http://live.admuspeh.my/8444/video.m3u8?token=iptvshared
+#EXTINF:-1 group-title="📽️ Фильмовые",BOX Western
+http://live.admuspeh.my/8417/video.m3u8?token=4gPHp5ZVYqDAR4oz
+#EXTINF:-1 group-title="📽️ Фильмовые",BOX Zombie
+http://live.admuspeh.my/8418/video.m3u8?token=iptvshared
+#EXTINF:-1 group-title="📽️ Фильмовые",BOX SportCast
+http://live.admuspeh.my/8447/video.m3u8?token=4gPHp5ZVYqDAR4oz
+#EXTINF:-1 group-title="📽️ Фильмовые",BOX Relax 4K
+http://live.admuspeh.my/8338/video.m3u8?token=iptvshared
+#EXTINF:-1 group-title="📽️ Фильмовые",BOX Anime
+http://live.admuspeh.my/8984/video.m3u8?token=4gPHp5ZVYqDAR4oz
+#EXTINF:-1 group-title="📽️ Фильмовые",BOX AutoTrend HD
+http://live.admuspeh.my/8440/video.m3u8?token=iptvshared
+#EXTINF:-1 group-title="📽️ Фильмовые",BOX Docu
+http://live.admuspeh.my/8424/video.m3u8?token=4gPHp5ZVYqDAR4oz
+#EXTINF:-1 group-title="📽️ Фильмовые",BOX Gurman HD
+http://live.admuspeh.my/8439/video.m3u8?token=iptvshared
+#EXTINF:-1 group-title="📽️ Фильмовые",BOX Kosmo 4K
+http://live.admuspeh.my/8448/video.m3u8?token=4gPHp5ZVYqDAR4oz
+#EXTINF:-1 group-title="📽️ Фильмовые",BOX Mayday
+http://live.admuspeh.my/8434/video.m3u8?token=iptvshared
+#EXTINF:-1 group-title="📽️ Фильмовые",BOX Music 4K
+http://live.admuspeh.my/8990/index.m3u8?token=4gPHp5ZVYqDAR4oz
+#EXTINF:-1 group-title="📽️ Фильмовые",BOX Travel
+http://live.admuspeh.my/8416/video.m3u8?token=iptvshared
+#EXTINF:-1 group-title="📽️ Фильмовые",MM Celebrity HD
+http://live.admuspeh.my/8991/video.m3u8?token=4gPHp5ZVYqDAR4oz
+#EXTINF:-1 group-title="📽️ Фильмовые",MM Flip UHD
+http://live.admuspeh.my/8404/video.m3u8?token=4gPHp5ZVYqDAR4oz
+#EXTINF:-1 group-title="📽️ Фильмовые",MM Love HD
+http://live.admuspeh.my/8328/video.m3u8?token=iptvshared
+#EXTINF:-1 group-title="📽️ Фильмовые",MM NewFilm 1 HD
+http://live.admuspeh.my/8741/video.m3u8?token=iptvshared
+#EXTINF:-1 group-title="📽️ Фильмовые",MM NewFilm 2 HD
+http://live.admuspeh.my/8742/video.m3u8?token=4gPHp5ZVYqDAR4oz
+#EXTINF:-1 group-title="📽️ Фильмовые",MM NewFilm 3 HD
+http://live.admuspeh.my/8743/video.m3u8?token=iptvshared
+#EXTINF:-1 group-title="📽️ Фильмовые",MM NewFilm RU HD
+http://live.admuspeh.my/8706/video.m3u8?token=iptvshared
+#EXTINF:-1 group-title="📽️ Фильмовые",MM UFO HD
+http://live.admuspeh.my/8410/video.m3u8?token=4gPHp5ZVYqDAR4oz
+#EXTINF:-1 group-title="📽️ Фильмовые",MM USSR Детектив HD
+http://live.admuspeh.my/8656/video.m3u8?token=iptvshared
+#EXTINF:-1 group-title="📽️ Фильмовые",MM USSR Комедия HD
+http://live.admuspeh.my/8744/video.m3u8?token=iptvshared
+#EXTINF:-1 group-title="📽️ Фильмовые",MM Боевик HD
+http://live.admuspeh.my/8745/video.m3u8?token=iptvshared
+#EXTINF:-1 group-title="📽️ Фильмовые",MM Боевик Classic HD
+http://live.admuspeh.my/8411/video.m3u8?token=4gPHp5ZVYqDAR4oz
+#EXTINF:-1 group-title="📽️ Фильмовые",MM Драма HD
+http://live.admuspeh.my/8894/video.m3u8?token=iptvshared
+#EXTINF:-1 group-title="📽️ Фильмовые",MM История HD
+http://live.admuspeh.my/8933/video.m3u8?token=4gPHp5ZVYqDAR4oz
+#EXTINF:-1 group-title="📽️ Фильмовые",MM Катастрофа HD
+http://live.admuspeh.my/8746/video.m3u8?token=4gPHp5ZVYqDAR4oz
+#EXTINF:-1 group-title="📽️ Фильмовые",MM Киберпанк HD
+http://live.admuspeh.my/8545/video.m3u8?token=iptvshared
+#EXTINF:-1 group-title="📽️ Фильмовые",MM Крутые 90-е HD
+http://live.admuspeh.my/8547/video.m3u8?token=iptvshared
+#EXTINF:-1 group-title="📽️ Фильмовые",MM Кунг-Фу HD
+http://live.admuspeh.my/8559/video.m3u8?token=4gPHp5ZVYqDAR4oz
+#EXTINF:-1 group-title="📽️ Фильмовые",MM Роскино HD
+http://live.admuspeh.my/8709/video.m3u8?token=iptvshared
+#EXTINF:-1 group-title="📽️ Фильмовые",MM Сваты HD
+http://live.admuspeh.my/8893/video.m3u8?token=iptvshared
+#EXTINF:-1 group-title="📽️ Фильмовые",MM Семейный 1 HD
+http://live.admuspeh.my/8442/video.m3u8?token=iptvshared
+#EXTINF:-1 group-title="📽️ Фильмовые",MM Семейный 2 HD
+http://live.admuspeh.my/8449/video.m3u8?token=4gPHp5ZVYqDAR4oz
+#EXTINF:-1 group-title="📽️ Фильмовые",MM Спорт HD
+http://live.admuspeh.my/8652/video.m3u8?token=iptvshared
+#EXTINF:-1 group-title="📽️ Фильмовые",MM Супергерои HD
+http://live.admuspeh.my/8710/video.m3u8?token=4gPHp5ZVYqDAR4oz
+#EXTINF:-1 group-title="📽️ Фильмовые",MM Ужасы HD
+http://live.admuspeh.my/8725/video.m3u8?token=4gPHp5ZVYqDAR4oz
+#EXTINF:-1 group-title="📽️ Фильмовые",MM Фобия HD
+http://live.admuspeh.my/8994/video.m3u8?token=iptvshared
+#EXTINF:-1 group-title="📽️ Фильмовые",MM Tom And Jerry HD
+http://live.admuspeh.my/8997/video.m3u8?token=iptvshared
+#EXTINF:-1 group-title="📽️ Фильмовые",MM Walt Disney HD
+http://live.admuspeh.my/8914/video.m3u8?token=4gPHp5ZVYqDAR4oz
+#EXTINF:-1 group-title="📽️ Фильмовые",MM USSR Мультфильм HD
+http://live.admuspeh.my/8913/video.m3u8?token=iptvshared
+
 #EXTINF:-1 group-title="📽️ Фильмовые",СЕРИАЛ UHD
 http://127.0.0.1:6878/ace/getstream?id=3a71745381e1a6821a881c96a230b6cd365d4da5&.mp4
 #EXTINF:-1 group-title="📽️ Фильмовые",КИНО UHD
@@ -510,6 +540,93 @@ http://127.0.0.1:6878/ace/getstream?id=9eb31bd34245c4bbe60f0fe6081f854b7d1dde52&
 #EXTINF:-1 group-title="👶 Детские",Disney
 http://127.0.0.1:6878/ace/getstream?id=a257179a41c0f69411ed7fe86260fe7cc5c823f3&.mp4
 
+
+#EXTINF:-1 group-title="Детские", В гостях у сказки
+http://109.200.130.123:7537/play/a02m
+#EXTINF:-1 group-title="Детские", В гостях у сказки HD
+http://live.admuspeh.my/8133/index.m3u8?token=test
+#EXTINF:-1 group-title="Детские", Детский мир
+http://195.26.83.96:7007/play/14/index.m3u8
+#EXTINF:-1 group-title="Детские", Детское кино International
+https://v2.catcast.tv/content/38720/index.m3u8
+#EXTINF:-1 group-title="Детские", Капитан Фантастика HD
+http://185.23.80.28:8080/KapitanFantastika/index.m3u8?token=test
+#EXTINF:-1 group-title="Детские", Карусель
+http://193.242.190.6:8099/8/index.m3u8
+#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Детские" tvg-id="karusel", Карусель (Архив)
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+https://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL/variant.m3u8
+#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Детские" tvg-id="karusel-pl7", Карусель +7 (Архив)
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+http://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL_7/variant.m3u8
+#EXTINF:-1 group-title="Детские", Карусель International 
+https://cdn2.skygo.mn/live/disk1/Karusel/HLS-FTA/Karusel.m3u8
+#EXTINF:-1 group-title="Детские", КиноМульт
+http://109.200.130.123:7537/play/a024
+#EXTINF:-1 group-title="Детские", Кнопка ТВ 
+http://api.alpaca.t62a.com/hls/9116/stream0.m3u8
+#EXTINF:-1 group-title="Детские", Мама
+http://stv.mediacdn.ru/live/cdn/mama/playlist_sdhigher.m3u8
+#EXTINF:-1 group-title="Детские", Мамонтëнок ТВ
+http://sirius.greenhosting.ru/MamontRu/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Детские", Мульт 
+http://stv.mediacdn.ru/live/cdn/mult/playlist_sdhigh.m3u8
+#EXTINF:-1 group-title="Детские", Мульт HD
+http://stv.mediacdn.ru/live/cdn/mult/playlist_hdhigh.m3u8
+#EXTINF:-1 group-title="Детские", Мультимания LV 
+http://sirius.greenhosting.ru/MultimaniaRu/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Детские", Мультимузыка
+http://stv.mediacdn.ru/live/cdn/multimuzika/playlist_sdhigher.m3u8
+#EXTINF:-1 group-title="Детские", О!
+http://130.193.73.10:8937/play/a016
+#EXTINF:-1 group-title="Детские", Радость моя
+https://radm.mediacdn.ru/cdn/radost/playlist_sdhigh.m3u8
+#EXTINF:-1 group-title="Детские", Рыжий 
+http://178.57.121.38:8080/ryzhiy/index.m3u8?token=test
+#EXTINF:-1 group-title="Детские", Смайл ТВ
+https://5d23269b3ec0c.streamlock.net/WEB_Smilik/ngrp:Smilik.stream-adaptive/playlist.m3u8
+#EXTINF:-1 group-title="Детские", Солнце
+http://tv.streams.baikal-telecom.net:8080/Disney/index.m3u8
+#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="?utcstart=${start}&utcend=${end}" group-title="Детские" tvg-id="solnce", Солнце (Архив)
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY/variant.m3u8
+#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="?utcstart=${start}&utcend=${end}" group-title="Детские" tvg-id="solnce-pl7", Солнце +7 (Архив)
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer 
+http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY_7/variant.m3u8
+#EXTINF:-1 group-title="Детские", СТС Kids
+http://195.26.83.96:7006/play/a00z/index.m3u8
+#EXTINF:-1 group-title="Детские", СТС Kids HD
+http://130.193.73.10:8937/play/a017
+#EXTINF:-1 group-title="Детские" tvg-id="malysh", СуперГерои
+http://178.124.179.122:8088/Malish/index.m3u8
+#EXTINF:-1 group-title="Детские", Уникум 
+http://178.57.121.38:8080/detsky/index.m3u8?token=test
+#EXTINF:-1 group-title="Детские", Ani
+http://stv.mediacdn.ru/live/cdn/ani/playlist_sdhigh.m3u8
+#EXTINF:-1 group-title="Детские", Cartoon Classics
+http://178.163.88.106:4022/udp/234.0.0.238:2000
+#EXTINF:-1 group-title="Детские", Cartoonito 
+http://135.181.115.81:8000/play/a01f/index.m3u8?token=livetv
+#EXTINF:-1 group-title="Детские", Cartoonito HD
+http://stream01.vnet.am/Channel_120/mono.m3u8
+#EXTINF:-1 group-title="Детские", Cartoon Network
+http://65.21.85.175:8000/play/a00i/index.m3u8?token=livetv
+#EXTINF:-1 group-title="Детские", Duck TV
+https://stream1.cinerama.uz/1271/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Детские", Fox Kids
+http://foxkids-online.ru/hls/test_240p264kbs/index.m3u8
+#EXTINF:-1 group-title="Детские", Gulli Girl
+http://86.57.198.251:8181/play/1091/index.m3u8
+#EXTINF:-1 group-title="Детские", Kids TV HD
+http://origin5.mediacdn.ru/live/kidstv/index.m3u8
+#EXTINF:-1 group-title="Детские", Nickelodeon HD
+http://stream01.vnet.am/Channel_114/mono.m3u8
+#EXTINF:-1 group-title="Детские", Nicktoons
+http://stream01.vnet.am/Boomerang/mono.m3u8
+#EXTINF:-1 group-title="Детские", Sunset Kids 
+https://stream.sunset-media.ru:443/AfBrazXsUK/J9hGT3vYuv/5.m3u8
+#EXTINF:-1 group-title="Детские", TiJi
+http://135.181.115.81:8000/play/a01i/index.m3u8?token=livetv
 
 
 
