@@ -3,7 +3,7 @@
 
 
 #EXTINF:0 group-title="местные", Камера Двор 2 
-rtsp://syno:fa00ccb143b2ac4f2f0143ac0821bae1@171.33.245.157:554/Sms=2.unicast
+http://192.158.4.99:1984/api/stream.m3u8?src=MainHouseCam
 
 #EXTINF:-1 catchup="append" tvg-logo="http://kusa.k-itv.ru/wp-content/uploads/2016/08/sts2_love.jpg" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="местные",СТС Love (+2)
 #EXTVLCOPT:http-user-agent=SmartTV
