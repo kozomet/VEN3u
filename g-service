@@ -1,244 +1,23 @@
 #EXTM3U cache=500 deinterlace=1 url-tvg=http://itv.g-service.ru/jtv/jtv_tvip.zip tvg-shift=TZ=+7 url-tvrec=https://itv.g-service.ru/api/tvmiddleware/api/program/url/?ptype=vod&cid=%mrl%&time=%utcstart%&end_time=%utcend% 
-#EXTINF:-1 tvg-name="Первый канал" tvg-logo=http://itv.g-service.ru/img/default/pervyj_int.png tvrec-depth=168h group-title=#1 ,Первый канал
+#EXTINF:-1 tvg-logo=http://itv.g-service.ru/img/default/pervyj_int.png tvrec-depth=168h group-title=#1 ,Первый канал +4
 http://itv.g-service.ru/live/1KANAL.m3u8?cid=1
-#EXTINF:-1 tvg-name="Россия 1" tvg-logo=http://itv.g-service.ru/img/default/rossija1.png tvrec-depth=168h group-title=#1 ,Россия 1
+#EXTINF:-1 tvg-logo=http://itv.g-service.ru/img/default/rossija1.png tvrec-depth=168h group-title=#1 ,Россия 1 +4
 http://itv.g-service.ru/live/RUSSIA_1.m3u8?cid=2
-#EXTINF:-1 tvg-name=Матч tvg-logo=http://itv.g-service.ru/img/default/match.png tvrec-depth=168h group-title=#1 ,Матч
-http://itv.g-service.ru/live/RUSSIA_2.m3u8?cid=3
-#EXTINF:-1 tvg-name=НТВ tvg-logo=http://itv.g-service.ru/img/default/ntv.png tvrec-depth=168h group-title=#1 ,НТВ
-http://itv.g-service.ru/live/NTV.m3u8?cid=4
-#EXTINF:-1 tvg-name="5 канал" tvg-logo=http://itv.g-service.ru/img/default/5_kanal.png tvrec-depth=168h group-title=#1 ,5 канал
-http://itv.g-service.ru/live/5KANAL.m3u8?cid=5
-#EXTINF:-1 tvg-name=Культура tvg-logo=http://itv.g-service.ru/img/default/rossija_k.png tvrec-depth=168h group-title=#1 ,Культура
-http://itv.g-service.ru/live/RUSSIA_K.m3u8?cid=6
-#EXTINF:-1 tvg-name="Россия 24" tvg-logo=http://itv.g-service.ru/img/default/rossija24.png tvrec-depth=168h group-title=#1 ,Россия 24
-http://itv.g-service.ru/live/RUSSIA_24.m3u8?cid=7
-#EXTINF:-1 tvg-name=Карусель tvg-logo=http://itv.g-service.ru/img/default/karusel.png tvrec-depth=168h group-title=#1 ,Карусель
-http://itv.g-service.ru/live/KARUSEL.m3u8?cid=8
-#EXTINF:-1 tvg-name=ОТР tvg-logo=http://itv.g-service.ru/img/default/otr.png tvrec-depth=168h group-title=#1 ,ОТР
-http://itv.g-service.ru/live/OTR.m3u8?cid=9
-#EXTINF:-1 tvg-name="ТВ Центр" tvg-logo=http://itv.g-service.ru/img/default/tvc.png tvrec-depth=168h group-title=#1 ,ТВ Центр
-http://itv.g-service.ru/live/TVC.m3u8?cid=10
-#EXTINF:-1 tvg-name="Рен ТВ" tvg-logo=http://itv.g-service.ru/img/default/ren.png tvrec-depth=168h group-title=#1 ,Рен ТВ
-http://itv.g-service.ru/live/RenTV.m3u8?cid=11
-#EXTINF:-1 tvg-name=Спас tvg-logo=http://itv.g-service.ru/img/default/spas.png tvrec-depth=168h group-title=#1 ,Спас
-http://itv.g-service.ru/live/SPAS.m3u8?cid=12
-#EXTINF:-1 tvg-name=СТС tvg-logo=http://itv.g-service.ru/img/default/sts.png tvrec-depth=168h group-title=#1 ,СТС
+
+#EXTINF:-1 tvg-name=Кинопремьера tvg-logo=http://itv.g-service.ru/img/default/kinopremhd.png tvrec-depth=168h group-title=#2 ,Кинопремьера
+http://itv.g-service.ru/live/KINO_HD.m3u8?cid=210
+#EXTINF:-1 tvg-logo=http://itv.g-service.ru/img/default/sts.png tvrec-depth=168h group-title=#1 ,СТС +4
 http://itv.g-service.ru/live/STS_main.m3u8?cid=13
-#EXTINF:-1 tvg-name=Домашний tvg-logo=http://itv.g-service.ru/img/default/domashnij.png tvrec-depth=168h group-title=#1 ,Домашний
-http://itv.g-service.ru/live/DomTV.m3u8?cid=14
-#EXTINF:-1 tvg-name=ТВ-3 tvg-logo=http://itv.g-service.ru/img/default/tv3.png tvrec-depth=168h group-title=#1 ,ТВ-3
-http://itv.g-service.ru/live/TV3.m3u8?cid=15
-#EXTINF:-1 tvg-name=Пятница tvg-logo=http://itv.g-service.ru/img/default/pjatnica.png tvrec-depth=168h group-title=#1 ,Пятница
+#EXTINF:-1 tvg-logo=http://itv.g-service.ru/img/default/ntv.png tvrec-depth=168h group-title=#1 ,НТВ +4
+http://itv.g-service.ru/live/NTV.m3u8?cid=4
+#EXTINF:-1 tvg-logo=http://itv.g-service.ru/img/default/pjatnica.png tvrec-depth=168h group-title=#1 ,Пятница
 http://itv.g-service.ru/live/FRIDAY.m3u8?cid=16
-#EXTINF:-1 tvg-name=Звезда tvg-logo=http://itv.g-service.ru/img/default/zvezda.png tvrec-depth=168h group-title=#1 ,Звезда
-http://itv.g-service.ru/live/Zvezda.m3u8?cid=17
-#EXTINF:-1 tvg-name=Мир tvg-logo=http://itv.g-service.ru/img/default/mir.png tvrec-depth=168h group-title=#1 ,Мир
-http://itv.g-service.ru/live/MIR.m3u8?cid=18
-#EXTINF:-1 tvg-name=ТНТ tvg-logo=http://itv.g-service.ru/img/default/tnt.png tvrec-depth=168h group-title=#1 ,ТНТ
+#EXTINF:-1 tvg-logo=http://itv.g-service.ru/img/default/tnt.png tvrec-depth=168h group-title=#1 ,ТНТ +4
 http://itv.g-service.ru/live/TNT.m3u8?cid=19
-#EXTINF:-1 tvg-name=МузТВ tvg-logo=http://itv.g-service.ru/img/default/muz.png tvrec-depth=168h group-title=#1 ,МузТВ
-http://itv.g-service.ru/live/MuzTV.m3u8?cid=20
-#EXTINF:-1 tvg-name="Енисей HD" tvg-logo=http://itv.g-service.ru/img/default/enisey.png tvrec-depth=168h group-title=#9 ,Енисей HD
-http://itv.g-service.ru/live/Enisey.m3u8?cid=21
-#EXTINF:-1 tvg-name="7 канал HD" tvg-logo=http://itv.g-service.ru/img/default/7kanal.png tvrec-depth=168h group-title=#9 ,7 канал HD
-http://itv.g-service.ru/live/7KANAL.m3u8?cid=22
-#EXTINF:-1 tvg-name="8 канал" tvg-logo=http://itv.g-service.ru/img/default/8_kanal.png tvrec-depth=168h group-title=#9 ,8 канал
-http://itv.g-service.ru/live/8KANAL.m3u8?cid=23
-#EXTINF:-1 tvg-name="Известия HD" tvg-logo=http://itv.g-service.ru/img/default/izvest.png tvrec-depth=168h group-title=#9 ,Известия HD
-http://itv.g-service.ru/live/izvest.m3u8?cid=24
-#EXTINF:-1 tvg-name="Прима HD" tvg-logo=http://itv.g-service.ru/img/default/prima.png tvrec-depth=168h group-title=#7 ,Прима HD
-http://itv.g-service.ru/live/STS.m3u8?cid=25
-#EXTINF:-1 tvg-name="Афонтово HD" tvg-logo=http://itv.g-service.ru/img/default/afontovo_new.png tvrec-depth=168h group-title=#9 ,Афонтово HD
-http://itv.g-service.ru/live/AFONTOVO.m3u8?cid=26
-#EXTINF:-1 tvg-name=Че tvg-logo=http://itv.g-service.ru/img/default/che.png tvrec-depth=168h group-title=#7 ,Че
-http://itv.g-service.ru/live/PEREC.m3u8?cid=27
-#EXTINF:-1 tvg-name="ТВК HD" tvg-logo=http://itv.g-service.ru/img/default/tvk.png tvrec-depth=168h group-title=#9 ,ТВК HD
-http://itv.g-service.ru/live/TVK.m3u8?cid=28
-#EXTINF:-1 tvg-name="Русский детектив" tvg-logo=http://itv.g-service.ru/img/default/rus_detektiv.png tvrec-depth=168h group-title=#2 ,Русский детектив
-http://itv.g-service.ru/live/RusDet.m3u8?cid=29
-#EXTINF:-1 tvg-name="Русский роман" tvg-logo=http://itv.g-service.ru/img/default/rus_roman.png tvrec-depth=168h group-title=#2 ,Русский роман
-http://itv.g-service.ru/live/RUS_ROMAN.m3u8?cid=30
-#EXTINF:-1 tvg-name="Русский бестселлер" tvg-logo=http://itv.g-service.ru/img/default/rus_bestseller.png tvrec-depth=168h group-title=#2 ,Русский бестселлер
-http://itv.g-service.ru/live/RusBestSeller.m3u8?cid=31
-#EXTINF:-1 tvg-name=Победа tvg-logo=http://itv.g-service.ru/img/default/pobeda.png tvrec-depth=168h group-title=#2 ,Победа
-http://itv.g-service.ru/live/pobeda.m3u8?cid=32
-#EXTINF:-1 tvg-name="Наука 2.0" tvg-logo=http://itv.g-service.ru/img/default/nauka.png tvrec-depth=168h group-title=#8 ,Наука 2.0
-http://itv.g-service.ru/live/Nauka.m3u8?cid=33
-#EXTINF:-1 tvg-name=История tvg-logo=http://itv.g-service.ru/img/default/istoria.png tvrec-depth=168h group-title=#6 ,История
-http://itv.g-service.ru/live/History.m3u8?cid=34
-#EXTINF:-1 tvg-name="Моя Планета" tvg-logo=http://itv.g-service.ru/img/default/moja_planeta.png tvrec-depth=168h group-title=#6 ,Моя Планета
-http://itv.g-service.ru/live/MY_PLANET.m3u8?cid=35
-#EXTINF:-1 tvg-name="Кино ТВ" tvg-logo=http://itv.g-service.ru/img/default/kino-tv.png tvrec-depth=168h group-title=#2 ,Кино ТВ
-http://itv.g-service.ru/live/KinoTV.m3u8?cid=36
-#EXTINF:-1 tvg-name=Мосфильм tvg-logo=http://itv.g-service.ru/img/default/mosfilm.png tvrec-depth=168h group-title=#2 ,Мосфильм
-http://itv.g-service.ru/live/Mosfilm.m3u8?cid=37
-#EXTINF:-1 tvg-name="Родное кино" tvg-logo=http://itv.g-service.ru/img/default/rodnoe.png tvrec-depth=168h group-title=#2 ,Родное кино
-http://itv.g-service.ru/live/rodnoe.m3u8?cid=38
-#EXTINF:-1 tvg-name=Комедия tvg-logo=http://itv.g-service.ru/img/default/komedia_tv.png tvrec-depth=168h group-title=#2 ,Комедия
-http://itv.g-service.ru/live/Kinomedia.m3u8?cid=39
-#EXTINF:-1 tvg-name=Игра tvg-logo=http://itv.g-service.ru/img/default/match-igra.png tvrec-depth=168h group-title=#3 ,Игра
-http://itv.g-service.ru/live/Sport.m3u8?cid=40
-#EXTINF:-1 tvg-name=Боец tvg-logo=http://itv.g-service.ru/img/default/match-boets.png tvrec-depth=168h group-title=#3 ,Боец
-http://itv.g-service.ru/live/Boec.m3u8?cid=41
-#EXTINF:-1 tvg-name="Бокс ТВ" tvg-logo=http://itv.g-service.ru/img/default/boxtv.png tvrec-depth=168h group-title=#3 ,Бокс ТВ
-http://itv.g-service.ru/live/boks.m3u8?cid=42
-#EXTINF:-1 tvg-name="M1 Global" tvg-logo=http://itv.g-service.ru/img/default/m1.png tvrec-depth=168h group-title=#3 ,M1 Global
-http://itv.g-service.ru/live/M1.m3u8?cid=43
-#EXTINF:-1 tvg-name=Ювелирочка tvg-logo=http://itv.g-service.ru/img/default/uvelir.png group-title=#10 ,Ювелирочка
-http://itv.g-service.ru/live/uvelir.m3u8?cid=44
-#EXTINF:-1 tvg-name=РБК tvg-logo=http://itv.g-service.ru/img/default/rbk.png tvrec-depth=168h group-title=#9 ,РБК
-http://itv.g-service.ru/live/RBC.m3u8?cid=45
-#EXTINF:-1 tvg-name=О! tvg-logo=http://itv.g-service.ru/img/default/channel_o.png tvrec-depth=168h group-title=#4 ,О!
-http://itv.g-service.ru/live/O_CHANNEL.m3u8?cid=46
-#EXTINF:-1 tvg-name=Супергерои tvg-logo=http://itv.g-service.ru/img/default/jimjam.png tvrec-depth=168h group-title=#4 ,Супергерои
-http://itv.g-service.ru/live/JimJam.m3u8?cid=47
-#EXTINF:-1 tvg-name=Мульт tvg-logo=http://itv.g-service.ru/img/default/mult.png tvrec-depth=168h group-title=#4 ,Мульт
-http://itv.g-service.ru/live/Mult.m3u8?cid=48
-#EXTINF:-1 tvg-name=2х2 tvg-logo=http://itv.g-service.ru/img/default/2x2.png tvrec-depth=168h group-title=#4 ,2х2
-http://itv.g-service.ru/live/2x2.m3u8?cid=49
-#EXTINF:-1 tvg-name=Мультимания tvg-logo=http://itv.g-service.ru/img/default/multimanija.png tvrec-depth=168h group-title=#4 ,Мультимания
-http://itv.g-service.ru/live/MULTIMANIA.m3u8?cid=50
-#EXTINF:-1 tvg-name=Мама tvg-logo=http://itv.g-service.ru/img/default/mat_i_ditja.png tvrec-depth=168h group-title=#4 ,Мама
-http://itv.g-service.ru/live/MAMA.m3u8?cid=51
-#EXTINF:-1 tvg-name=Ani tvg-logo=http://itv.g-service.ru/img/default/ani.png tvrec-depth=168h group-title=#4 ,Ani
-http://itv.g-service.ru/live/Ani.m3u8?cid=52
-#EXTINF:-1 tvg-name="В гостях у сказки" tvg-logo=http://itv.g-service.ru/img/default/skazka.png tvrec-depth=168h group-title=#4 ,В гостях у сказки
-http://itv.g-service.ru/live/skazka.m3u8?cid=53
-#EXTINF:-1 tvg-name="Мульт и музыка" tvg-logo=http://itv.g-service.ru/img/default/mim.gif tvrec-depth=168h group-title=#8 ,Мульт и музыка
-http://itv.g-service.ru/live/Strana.m3u8?cid=54
-#EXTINF:-1 tvg-name=E tvg-logo=http://itv.g-service.ru/img/default/E_TV.png tvrec-depth=168h group-title=#4 ,E
-http://itv.g-service.ru/live/E_TV.m3u8?cid=55
-#EXTINF:-1 tvg-name="Russian MusicBox" tvg-logo=http://itv.g-service.ru/img/default/music_box.png group-title=#5 ,Russian MusicBox
-http://itv.g-service.ru/live/MB1.m3u8?cid=56
-#EXTINF:-1 tvg-name="Европа плюс HD" tvg-logo=http://itv.g-service.ru/img/default/europa_plus.png group-title=#5 ,Европа плюс HD
-http://itv.g-service.ru/live/EPlus_TV.m3u8?cid=57
-#EXTINF:-1 tvg-name="Музыка первого" tvg-logo=http://itv.g-service.ru/img/default/muzyka.png tvrec-depth=168h group-title=#5 ,Музыка первого
-http://itv.g-service.ru/live/Music_1.m3u8?cid=58
-#EXTINF:-1 tvg-name="Ru TV" tvg-logo=http://itv.g-service.ru/img/default/ru_tv.png tvrec-depth=168h group-title=#5 ,Ru TV
-http://itv.g-service.ru/live/RuTV.m3u8?cid=59
-#EXTINF:-1 tvg-name="Ля минор" tvg-logo=http://itv.g-service.ru/img/default/la_minor.png tvrec-depth=168h group-title=#5 ,Ля минор
-http://itv.g-service.ru/live/La_Minor.m3u8?cid=60
-#EXTINF:-1 tvg-name=Шансон-ТВ tvg-logo=http://itv.g-service.ru/img/default/shanson.png tvrec-depth=168h group-title=#5 ,Шансон-ТВ
-http://itv.g-service.ru/live/ShansonTV.m3u8?cid=61
-#EXTINF:-1 tvg-name="Mezzo Live HD" tvg-logo=http://itv.g-service.ru/img/default/mezzo_live_hd.png tvrec-depth=168h group-title=#5 ,Mezzo Live HD
-http://itv.g-service.ru/live/Mezzo.m3u8?cid=62
-#EXTINF:-1 tvg-name="Bridge Русский хит" tvg-logo=http://itv.g-service.ru/img/default/rusong.png group-title=#5 ,Bridge Русский хит
-http://itv.g-service.ru/live/Rusong.m3u8?cid=63
-#EXTINF:-1 tvg-name="ТНТ Music" tvg-logo=http://itv.g-service.ru/img/default/bridge.png group-title=#5 ,ТНТ Music
-http://itv.g-service.ru/live/TNT_music.m3u8?cid=64
-#EXTINF:-1 tvg-name=Нано tvg-logo=http://itv.g-service.ru/img/default/nano.png tvrec-depth=168h group-title=#6 ,Нано
-http://itv.g-service.ru/live/NANO.m3u8?cid=65
-#EXTINF:-1 tvg-name="Техно 24" tvg-logo=http://itv.g-service.ru/img/default/24_techno.png tvrec-depth=168h group-title=#8 ,Техно 24
-http://itv.g-service.ru/live/T24.m3u8?cid=66
-#EXTINF:-1 tvg-name=Оружие tvg-logo=http://itv.g-service.ru/img/default/oruzhie.png tvrec-depth=168h group-title=#6 ,Оружие
-http://itv.g-service.ru/live/ORUGIE.m3u8?cid=67
 #EXTINF:-1 tvg-name="СТС Love" tvg-logo=http://itv.g-service.ru/img/default/sts_love.png tvrec-depth=168h group-title=#7 ,СТС Love
 http://itv.g-service.ru/live/STS_Love.m3u8?cid=68
-#EXTINF:-1 tvg-name=Союз tvg-logo=http://itv.g-service.ru/img/default/sojuz.png tvrec-depth=168h group-title=#10 ,Союз
-http://itv.g-service.ru/live/Soyuz.m3u8?cid=69
-#EXTINF:-1 tvg-name="Авто 24" tvg-logo=http://itv.g-service.ru/img/default/avto24.png tvrec-depth=168h group-title=#6 ,Авто 24
-http://itv.g-service.ru/live/AVTO_24.m3u8?cid=70
-#EXTINF:-1 tvg-name="Авто Плюс" tvg-logo=http://itv.g-service.ru/img/default/auto_plus.png tvrec-depth=168h group-title=#6 ,Авто Плюс
-http://itv.g-service.ru/live/AVTO_PLUS.m3u8?cid=71
-#EXTINF:-1 tvg-name=Время tvg-logo=http://itv.g-service.ru/img/default/vremja.png tvrec-depth=168h group-title=#6 ,Время
-http://itv.g-service.ru/live/Vremya.m3u8?cid=72
-#EXTINF:-1 tvg-name=Живи! tvg-logo=http://itv.g-service.ru/img/default/zhivi.png tvrec-depth=168h group-title=#6 ,Живи!
-http://itv.g-service.ru/live/JIVI.m3u8?cid=73
-#EXTINF:-1 tvg-name=Дикий tvg-logo=http://itv.g-service.ru/img/default/wild.png tvrec-depth=168h group-title=#8 ,Дикий
-http://itv.g-service.ru/live/dikiy.m3u8?cid=74
-#EXTINF:-1 tvg-name="Russian Travel Guide" tvg-logo=http://itv.g-service.ru/img/default/rtg.png tvrec-depth=168h group-title=#6 ,Russian Travel Guide
-http://itv.g-service.ru/live/RTG_SD.m3u8?cid=75
-#EXTINF:-1 tvg-name=Сарафан tvg-logo=http://itv.g-service.ru/img/default/sarafan.png tvrec-depth=168h group-title=#7 ,Сарафан
-http://itv.g-service.ru/live/Sarafan.m3u8?cid=76
-#EXTINF:-1 tvg-name="Shop and Show" tvg-logo=http://itv.g-service.ru/img/default/shop_show.png group-title=#10 ,Shop and Show
-http://itv.g-service.ru/live/Shop_Show.m3u8?cid=77
-#EXTINF:-1 tvg-name=Leomax24 tvg-logo=http://itv.g-service.ru/img/default/leomax.png group-title=#9 ,Leomax24
-http://itv.g-service.ru/live/Shop24.m3u8?cid=78
-#EXTINF:-1 tvg-name="Shopping Live" tvg-logo=http://itv.g-service.ru/img/default/shopping_live.png group-title=#9 ,Shopping Live
-http://itv.g-service.ru/live/ShopingLife.m3u8?cid=79
-#EXTINF:-1 tvg-name=Потребительский tvg-logo=http://itv.g-service.ru/img/default/PP.png group-title=#10 ,Потребительский
-http://itv.g-service.ru/live/PP.m3u8?cid=80
-#EXTINF:-1 tvg-name="Калейдоскоп ТВ" tvg-logo=http://itv.g-service.ru/img/default/klscope.png tvrec-depth=168h group-title=#7 ,Калейдоскоп ТВ
-http://itv.g-service.ru/live/to4ka.m3u8?cid=81
-#EXTINF:-1 tvg-name=Fox tvg-logo=http://itv.g-service.ru/img/default/fox.png tvrec-depth=168h group-title=#2 ,Fox
-http://itv.g-service.ru/live/FOX.m3u8?cid=82
-#EXTINF:-1 tvg-name="Fox Life" tvg-logo=http://itv.g-service.ru/img/default/fox_life.png tvrec-depth=168h group-title=#2 ,Fox Life
-http://itv.g-service.ru/live/FOX_LIFE.m3u8?cid=83
-#EXTINF:-1 tvg-name="Da Vinci" tvg-logo=http://itv.g-service.ru/img/default/da_vinci_learning.png tvrec-depth=168h group-title=#8 ,Da Vinci
-http://itv.g-service.ru/live/DaVinchi.m3u8?cid=84
-#EXTINF:-1 tvg-name="Красная линия" tvg-logo=http://itv.g-service.ru/img/default/krasnaja_linija.png group-title=#9 ,Красная линия
-http://itv.g-service.ru/live/RedLine.m3u8?cid=85
-#EXTINF:-1 tvg-name="Точка отрыва" tvg-logo=http://itv.g-service.ru/img/default/rzhd.png tvrec-depth=168h group-title=#6 ,Точка отрыва
-http://itv.g-service.ru/live/otryv.m3u8?cid=86
-#EXTINF:-1 tvg-name=Bloomberg tvg-logo=http://itv.g-service.ru/img/default/bloomberg.png group-title=#11 ,Bloomberg
-http://itv.g-service.ru/live/Bloomberg.m3u8?cid=87
-#EXTINF:-1 tvg-name="AL Jazeera HD" tvg-logo=http://itv.g-service.ru/img/default/ALJazeera.png group-title=#11 ,AL Jazeera HD
-http://itv.g-service.ru/live/AL_Jazeera.m3u8?cid=88
-#EXTINF:-1 tvg-name="News Asia HD" tvg-logo=http://itv.g-service.ru/img/default/channelg.png group-title=#11 ,News Asia HD
-http://itv.g-service.ru/live/Channel_G.m3u8?cid=89
-#EXTINF:-1 tvg-name=Imedi tvg-logo=http://itv.g-service.ru/img/default/imedi.png group-title=#11 ,Imedi
-http://itv.g-service.ru/live/Imedi.m3u8?cid=90
-#EXTINF:-1 tvg-name="Russia Today" tvg-logo=http://itv.g-service.ru/img/default/Russia-today.png group-title=#11 ,Russia Today
-http://itv.g-service.ru/live/RussiaToday.m3u8?cid=91
-#EXTINF:-1 tvg-name="Шаян ТВ" tvg-logo=http://itv.g-service.ru/img/default/sajan.png tvrec-depth=168h group-title=#11 ,Шаян ТВ
-http://itv.g-service.ru/live/Shayan.m3u8?cid=92
-#EXTINF:-1 tvg-name="Kentron TV" tvg-logo=http://itv.g-service.ru/img/default/armenia.png group-title=#11 ,Kentron TV
-http://itv.g-service.ru/live/ARM2.m3u8?cid=93
-#EXTINF:-1 tvg-name="Армения ТВ" tvg-logo=http://itv.g-service.ru/img/default/armenia1.png group-title=#11 ,Армения ТВ
-http://itv.g-service.ru/live/ARM1.m3u8?cid=94
-#EXTINF:-1 tvg-name="Shant Premium HD" tvg-logo=http://itv.g-service.ru/img/default/shant_premium.png tvrec-depth=168h group-title=#11 ,Shant Premium HD
-http://itv.g-service.ru/live/Shant_Premium.m3u8?cid=95
-#EXTINF:-1 tvg-name="Shant Serial HD" tvg-logo=http://itv.g-service.ru/img/default/shant_serial.png tvrec-depth=168h group-title=#11 ,Shant Serial HD
-http://itv.g-service.ru/live/Shant_Serial.m3u8?cid=96
-#EXTINF:-1 tvg-name="Shant Music HD" tvg-logo=http://itv.g-service.ru/img/default/shant_music.png tvrec-depth=168h group-title=#11 ,Shant Music HD
-http://itv.g-service.ru/live/Shant_Music.m3u8?cid=97
-#EXTINF:-1 tvg-name="Shant Kids HD" tvg-logo=http://itv.g-service.ru/img/default/shant_kids.png tvrec-depth=168h group-title=#11 ,Shant Kids HD
-http://itv.g-service.ru/live/Shant_Kids.m3u8?cid=98
-#EXTINF:-1 tvg-name="NASA TV UHD" tvg-logo=http://itv.g-service.ru/img/default/inter_az.png group-title=#11 ,NASA TV UHD
-http://itv.g-service.ru/live/NASA_TV_HD.m3u8?cid=99
-#EXTINF:-1 tvg-name="Мир 24" tvg-logo=http://itv.g-service.ru/img/default/mir_24.png tvrec-depth=168h group-title=#6 ,Мир 24
-http://itv.g-service.ru/live/MIR_24.m3u8?cid=100
-#EXTINF:-1 tvg-name=Бобёр tvg-logo=http://itv.g-service.ru/img/default/bober_tv.png tvrec-depth=168h group-title=#6 ,Бобёр
-http://itv.g-service.ru/live/Bober.m3u8?cid=101
-#EXTINF:-1 tvg-name="Загородная жизнь" tvg-logo=http://itv.g-service.ru/img/default/zagorodnaja_zhizn.png tvrec-depth=168h group-title=#6 ,Загородная жизнь
-http://itv.g-service.ru/live/Zlife.m3u8?cid=102
-#EXTINF:-1 tvg-name=Мужской tvg-logo=http://itv.g-service.ru/img/default/muzhskoj.png tvrec-depth=168h group-title=#6 ,Мужской
-http://itv.g-service.ru/live/Muzhskoy.m3u8?cid=103
-#EXTINF:-1 tvg-name="Драйв ТВ" tvg-logo=http://itv.g-service.ru/img/default/draiv.png tvrec-depth=168h group-title=#6 ,Драйв ТВ
-http://itv.g-service.ru/live/Drive.m3u8?cid=104
-#EXTINF:-1 tvg-name="Здоровое ТВ" tvg-logo=http://itv.g-service.ru/img/default/zdorovoe.png tvrec-depth=168h group-title=#6 ,Здоровое ТВ
-http://itv.g-service.ru/live/Zdorovoe.m3u8?cid=105
-#EXTINF:-1 tvg-name="Домашние животные" tvg-logo=http://itv.g-service.ru/img/default/dom_zhivotnye.png tvrec-depth=168h group-title=#6 ,Домашние животные
-http://itv.g-service.ru/live/HomeAnimals.m3u8?cid=106
-#EXTINF:-1 tvg-name="Охота и рыбалка" tvg-logo=http://itv.g-service.ru/img/default/ohota_i_rybalka.png tvrec-depth=168h group-title=#6 ,Охота и рыбалка
-http://itv.g-service.ru/live/OhotaIRibalka.m3u8?cid=107
-#EXTINF:-1 tvg-name=Усадьба tvg-logo=http://itv.g-service.ru/img/default/usadba.png tvrec-depth=168h group-title=#6 ,Усадьба
-http://itv.g-service.ru/live/Usadba.m3u8?cid=108
-#EXTINF:-1 tvg-name=Психология tvg-logo=http://itv.g-service.ru/img/default/psihologia_21.png tvrec-depth=168h group-title=#6 ,Психология
-http://itv.g-service.ru/live/Psih.m3u8?cid=109
-#EXTINF:-1 tvg-name=Ретро tvg-logo=http://itv.g-service.ru/img/default/retro.png tvrec-depth=168h group-title=#6 ,Ретро
-http://itv.g-service.ru/live/Retro.m3u8?cid=110
-#EXTINF:-1 tvg-name="Вопросы и ответы" tvg-logo=http://itv.g-service.ru/img/default/voprosy.png tvrec-depth=168h group-title=#6 ,Вопросы и ответы
-http://itv.g-service.ru/live/Questions.m3u8?cid=111
-#EXTINF:-1 tvg-name="National Geographic" tvg-logo=http://itv.g-service.ru/img/default/nat_geo.png tvrec-depth=168h group-title=#6 ,National Geographic
-http://itv.g-service.ru/live/National_Geographic_SD.m3u8?cid=112
-#EXTINF:-1 tvg-name="Игра ТВ" tvg-logo=http://itv.g-service.ru/img/default/igratv.png group-title=#8 ,Игра ТВ
-http://itv.g-service.ru/live/igratv.m3u8?cid=113
-#EXTINF:-1 tvg-name="Лёва HD" tvg-logo=http://itv.g-service.ru/img/default/leva.png tvrec-depth=168h group-title=#4 ,Лёва HD
-http://itv.g-service.ru/live/BBC.m3u8?cid=114
-#EXTINF:-1 tvg-name="Уникум HD" tvg-logo=http://itv.g-service.ru/img/default/detskiy.png tvrec-depth=168h group-title=#4 ,Уникум HD
-http://itv.g-service.ru/live/DETSKIY.m3u8?cid=115
-#EXTINF:-1 tvg-name=Disney tvg-logo=http://itv.g-service.ru/img/default/disney.png tvrec-depth=168h group-title=#4 ,Disney
-http://itv.g-service.ru/live/Disney.m3u8?cid=116
-#EXTINF:-1 tvg-name="Детский мир" tvg-logo=http://itv.g-service.ru/img/default/detsky_mir.png tvrec-depth=168h group-title=#4 ,Детский мир
-http://itv.g-service.ru/live/DetMir.m3u8?cid=117
-#EXTINF:-1 tvg-name="Кухня ТВ" tvg-logo=http://itv.g-service.ru/img/default/kuhnja.png tvrec-depth=168h group-title=#6 ,Кухня ТВ
-http://itv.g-service.ru/live/Kuhnya.m3u8?cid=118
-#EXTINF:-1 tvg-name=Телекафе tvg-logo=http://itv.g-service.ru/img/default/telekafe.png tvrec-depth=168h group-title=#6 ,Телекафе
-http://itv.g-service.ru/live/TeleCafe.m3u8?cid=119
-#EXTINF:-1 tvg-name=Поехали! tvg-logo=http://itv.g-service.ru/img/default/poehali.png tvrec-depth=168h group-title=#7 ,Поехали!
-http://itv.g-service.ru/live/poehali.m3u8?cid=120
+#EXTINF:-1 tvg-name=E tvg-logo=http://itv.g-service.ru/img/default/E_TV.png tvrec-depth=168h group-title=#4 ,E
+http://itv.g-service.ru/live/E_TV.m3u8?cid=55
 #EXTINF:-1 tvg-name="Амедиа 1" tvg-logo=http://itv.g-service.ru/img/default/a1_hd.png tvrec-depth=168h group-title=#2 ,Амедиа 1
 http://itv.g-service.ru/live/Amedia1.m3u8?cid=121
 #EXTINF:-1 tvg-name="Амедиа 2" tvg-logo=http://itv.g-service.ru/img/default/a2_hd.png tvrec-depth=168h group-title=#2 ,Амедиа 2
@@ -247,18 +26,10 @@ http://itv.g-service.ru/live/Amedia2.m3u8?cid=122
 http://itv.g-service.ru/live/TV1000.m3u8?cid=123
 #EXTINF:-1 tvg-name="TV1000 (Русское кино)" tvg-logo=http://itv.g-service.ru/img/default/tv1000_russkoe_kino.png tvrec-depth=168h group-title=#2 ,TV1000 (Русское кино)
 http://itv.g-service.ru/live/TV1000_rk.m3u8?cid=124
-#EXTINF:-1 tvg-name="Viasat Explore" tvg-logo=http://itv.g-service.ru/img/default/viasat_explorer.png tvrec-depth=168h group-title=#8 ,Viasat Explore
-http://itv.g-service.ru/live/ViasatExplorer.m3u8?cid=125
-#EXTINF:-1 tvg-name="Viasat History" tvg-logo=http://itv.g-service.ru/img/default/viasat_history.png tvrec-depth=168h group-title=#6 ,Viasat History
-http://itv.g-service.ru/live/ViasatHistory.m3u8?cid=126
-#EXTINF:-1 tvg-name="Viasat Sport" tvg-logo=http://itv.g-service.ru/img/default/viasat_sport.png tvrec-depth=168h group-title=#3 ,Viasat Sport
-http://itv.g-service.ru/live/Viasat_sport.m3u8?cid=127
 #EXTINF:-1 tvg-name="TV1000 Action" tvg-logo=http://itv.g-service.ru/img/default/tv1000_action.png tvrec-depth=168h group-title=#2 ,TV1000 Action
 http://itv.g-service.ru/live/ViasatAction.m3u8?cid=128
-#EXTINF:-1 tvg-name="Viasat Nature" tvg-logo=http://itv.g-service.ru/img/default/viasat_nature.png tvrec-depth=168h group-title=#6 ,Viasat Nature
-http://itv.g-service.ru/live/ViasatNature.m3u8?cid=129
-#EXTINF:-1 tvg-name="Первый Крымский" group-title=#9 ,Первый Крымский
-http://itv.g-service.ru/live/crimea24.m3u8?cid=130
+#EXTINF:-1 tvg-name=Комедия tvg-logo=http://itv.g-service.ru/img/default/komedia_tv.png tvrec-depth=168h group-title=#2 ,Комедия
+http://itv.g-service.ru/live/Kinomedia.m3u8?cid=39
 #EXTINF:-1 tvg-name="Мир сериала" tvg-logo=http://itv.g-service.ru/img/default/mir_seriala.png tvrec-depth=168h group-title=#2 ,Мир сериала
 http://itv.g-service.ru/live/MirSeriala.m3u8?cid=131
 #EXTINF:-1 tvg-name="Любимое кино" tvg-logo=http://itv.g-service.ru/img/default/lubimoe_kino.png tvrec-depth=168h group-title=#2 ,Любимое кино
@@ -281,12 +52,147 @@ http://itv.g-service.ru/live/ZeeTV.m3u8?cid=139
 http://itv.g-service.ru/live/SET.m3u8?cid=140
 #EXTINF:-1 tvg-name=НСТ tvg-logo=http://itv.g-service.ru/img/default/nst.png tvrec-depth=168h group-title=#2 ,НСТ
 http://itv.g-service.ru/live/NST.m3u8?cid=141
+#EXTINF:-1 tvg-name="Amedia Premium HD" tvg-logo=http://itv.g-service.ru/img/default/amedia_hd.png tvrec-depth=168h group-title=#2 ,Amedia Premium HD
+http://itv.g-service.ru/live/APremium.m3u8?cid=207
+#EXTINF:-1 tvg-name="Amedia Хит HD" tvg-logo=http://itv.g-service.ru/img/default/amedia-hit-hd.png tvrec-depth=168h group-title=#2 ,Amedia Хит HD
+http://itv.g-service.ru/live/AmHit.m3u8?cid=208
+#EXTINF:-1 tvg-name="Киномикс HD" tvg-logo=http://itv.g-service.ru/img/default/kinomixhd.png tvrec-depth=168h group-title=#2 ,Киномикс HD
+http://itv.g-service.ru/live/1HD.m3u8?cid=209
+
+#EXTINF:-1 tvg-name="Шокирующее HD" tvg-logo=http://itv.g-service.ru/img/default/shokhd.png tvrec-depth=168h group-title=#2 ,Шокирующее HD
+http://itv.g-service.ru/live/KinoPokaz1_HD.m3u8?cid=211
+#EXTINF:-1 tvg-name="Наше крутое HD" tvg-logo=http://itv.g-service.ru/img/default/nashe_krutoehd.png tvrec-depth=168h group-title=#2 ,Наше крутое HD
+http://itv.g-service.ru/live/Romantic_HD.m3u8?cid=212
+#EXTINF:-1 tvg-name="Наше Новое HD" tvg-logo=http://itv.g-service.ru/img/default/nnew.png tvrec-depth=168h group-title=#2 ,Наше Новое HD
+http://itv.g-service.ru/live/NNew.m3u8?cid=213
+#EXTINF:-1 tvg-name="Комедийное HD" tvg-logo=http://itv.g-service.ru/img/default/komediynoehd.png tvrec-depth=168h group-title=#2 ,Комедийное HD
+http://itv.g-service.ru/live/KinopokazHD2.m3u8?cid=214
+#EXTINF:-1 tvg-name="Премиальное HD" tvg-logo=http://itv.g-service.ru/img/default/premialhd.png tvrec-depth=168h group-title=#2 ,Премиальное HD
+http://itv.g-service.ru/live/Prem_HD.m3u8?cid=215
+#EXTINF:-1 tvg-name="Остросюжетное HD" tvg-logo=http://itv.g-service.ru/img/default/oszthd.png tvrec-depth=168h group-title=#2 ,Остросюжетное HD
+http://itv.g-service.ru/live/Oszt.m3u8?cid=216
+#EXTINF:-1 tvg-name="Кино ТВ HD" tvg-logo=http://itv.g-service.ru/img/default/kino-tv.png tvrec-depth=168h group-title=#2 ,Кино ТВ HD
+http://itv.g-service.ru/live/kinotv_HD.m3u8?cid=217
+#EXTINF:-1 tvg-name="Дом кино Премиум HD" tvg-logo=http://itv.g-service.ru/img/default/dom_premium.png tvrec-depth=168h group-title=#2 ,Дом кино Премиум HD
+http://itv.g-service.ru/live/dom_premium_hd.m3u8?cid=218
+#EXTINF:-1 tvg-name="Русский Роман HD" tvg-logo=http://itv.g-service.ru/img/default/rus_roman.png tvrec-depth=168h group-title=#2 ,Русский Роман HD
+http://itv.g-service.ru/live/Rus_Roman_HD.m3u8?cid=219
+#EXTINF:-1 tvg-name="Bollywood HD" tvg-logo=http://itv.g-service.ru/img/default/BollywoodHD.png tvrec-depth=168h group-title=#2 ,Bollywood HD
+http://itv.g-service.ru/live/Bollywood_HD.m3u8?cid=220
+#EXTINF:-1 tvg-name="Hollywood HD" tvg-logo=http://itv.g-service.ru/img/default/hollywood_hd.png tvrec-depth=168h group-title=#2 ,Hollywood HD
+http://itv.g-service.ru/live/MGM_HD.m3u8?cid=221
+#EXTINF:-1 tvg-name="Кино ТВ" tvg-logo=http://itv.g-service.ru/img/default/kino-tv.png tvrec-depth=168h group-title=#2 ,Кино ТВ
+http://itv.g-service.ru/live/KinoTV.m3u8?cid=36
+#EXTINF:-1 tvg-name=Мосфильм tvg-logo=http://itv.g-service.ru/img/default/mosfilm.png tvrec-depth=168h group-title=#2 ,Мосфильм
+http://itv.g-service.ru/live/Mosfilm.m3u8?cid=37
+#EXTINF:-1 tvg-name="Родное кино" tvg-logo=http://itv.g-service.ru/img/default/rodnoe.png tvrec-depth=168h group-title=#2 ,Родное кино
+http://itv.g-service.ru/live/rodnoe.m3u8?cid=38
+#EXTINF:-1 tvg-name=Fox tvg-logo=http://itv.g-service.ru/img/default/fox.png tvrec-depth=168h group-title=#2 ,Fox
+http://itv.g-service.ru/live/FOX.m3u8?cid=82
+#EXTINF:-1 tvg-name="Fox Life" tvg-logo=http://itv.g-service.ru/img/default/fox_life.png tvrec-depth=168h group-title=#2 ,Fox Life
+http://itv.g-service.ru/live/FOX_LIFE.m3u8?cid=83
+#EXTINF:-1 tvg-name="Иллюзион плюс" tvg-logo=http://itv.g-service.ru/img/default/illuzion_plus.png tvrec-depth=168h group-title=#2 ,Иллюзион плюс
+http://itv.g-service.ru/live/IllusionPlus.m3u8?cid=144
+
+
+
+
+#EXTINF:-1 tvg-name=МузТВ tvg-logo=http://itv.g-service.ru/img/default/muz.png tvrec-depth=168h group-title=#1 ,МузТВ
+http://itv.g-service.ru/live/MuzTV.m3u8?cid=20
+#EXTINF:-1 tvg-name="Прима HD" tvg-logo=http://itv.g-service.ru/img/default/prima.png tvrec-depth=168h group-title=#7 ,Прима HD
+http://itv.g-service.ru/live/STS.m3u8?cid=25
+#EXTINF:-1 tvg-name="Афонтово HD" tvg-logo=http://itv.g-service.ru/img/default/afontovo_new.png tvrec-depth=168h group-title=#9 ,Афонтово HD
+http://itv.g-service.ru/live/AFONTOVO.m3u8?cid=26
+#EXTINF:-1 tvg-name="ТВК HD" tvg-logo=http://itv.g-service.ru/img/default/tvk.png tvrec-depth=168h group-title=#9 ,ТВК HD
+http://itv.g-service.ru/live/TVK.m3u8?cid=28
+
+#EXTINF:-1 tvg-name="Наука 2.0" tvg-logo=http://itv.g-service.ru/img/default/nauka.png tvrec-depth=168h group-title=#8 ,Наука 2.0
+http://itv.g-service.ru/live/Nauka.m3u8?cid=33
+#EXTINF:-1 tvg-name=История tvg-logo=http://itv.g-service.ru/img/default/istoria.png tvrec-depth=168h group-title=#6 ,История
+http://itv.g-service.ru/live/History.m3u8?cid=34
+#EXTINF:-1 tvg-name="Моя Планета" tvg-logo=http://itv.g-service.ru/img/default/moja_planeta.png tvrec-depth=168h group-title=#6 ,Моя Планета
+http://itv.g-service.ru/live/MY_PLANET.m3u8?cid=35
+
+
+#EXTINF:-1 tvg-name=Игра tvg-logo=http://itv.g-service.ru/img/default/match-igra.png tvrec-depth=168h group-title=#3 ,Игра
+http://itv.g-service.ru/live/Sport.m3u8?cid=40
+#EXTINF:-1 tvg-name=Боец tvg-logo=http://itv.g-service.ru/img/default/match-boets.png tvrec-depth=168h group-title=#3 ,Боец
+http://itv.g-service.ru/live/Boec.m3u8?cid=41
+#EXTINF:-1 tvg-name="Бокс ТВ" tvg-logo=http://itv.g-service.ru/img/default/boxtv.png tvrec-depth=168h group-title=#3 ,Бокс ТВ
+http://itv.g-service.ru/live/boks.m3u8?cid=42
+#EXTINF:-1 tvg-name="M1 Global" tvg-logo=http://itv.g-service.ru/img/default/m1.png tvrec-depth=168h group-title=#3 ,M1 Global
+http://itv.g-service.ru/live/M1.m3u8?cid=43
+#EXTINF:-1 tvg-name=Супергерои tvg-logo=http://itv.g-service.ru/img/default/jimjam.png tvrec-depth=168h group-title=#4 ,Супергерои
+http://itv.g-service.ru/live/JimJam.m3u8?cid=47
+#EXTINF:-1 tvg-name=Мульт tvg-logo=http://itv.g-service.ru/img/default/mult.png tvrec-depth=168h group-title=#4 ,Мульт
+http://itv.g-service.ru/live/Mult.m3u8?cid=48
+#EXTINF:-1 tvg-name=2х2 tvg-logo=http://itv.g-service.ru/img/default/2x2.png tvrec-depth=168h group-title=#4 ,2х2
+http://itv.g-service.ru/live/2x2.m3u8?cid=49
+#EXTINF:-1 tvg-name=Мультимания tvg-logo=http://itv.g-service.ru/img/default/multimanija.png tvrec-depth=168h group-title=#4 ,Мультимания
+http://itv.g-service.ru/live/MULTIMANIA.m3u8?cid=50
+#EXTINF:-1 tvg-name=Мама tvg-logo=http://itv.g-service.ru/img/default/mat_i_ditja.png tvrec-depth=168h group-title=#4 ,Мама
+http://itv.g-service.ru/live/MAMA.m3u8?cid=51
+#EXTINF:-1 tvg-name=Ani tvg-logo=http://itv.g-service.ru/img/default/ani.png tvrec-depth=168h group-title=#4 ,Ani
+http://itv.g-service.ru/live/Ani.m3u8?cid=52
+#EXTINF:-1 tvg-name="В гостях у сказки" tvg-logo=http://itv.g-service.ru/img/default/skazka.png tvrec-depth=168h group-title=#4 ,В гостях у сказки
+http://itv.g-service.ru/live/skazka.m3u8?cid=53
+#EXTINF:-1 tvg-name="Мульт и музыка" tvg-logo=http://itv.g-service.ru/img/default/mim.gif tvrec-depth=168h group-title=#8 ,Мульт и музыка
+http://itv.g-service.ru/live/Strana.m3u8?cid=54
+
+#EXTINF:-1 tvg-name="Russian MusicBox" tvg-logo=http://itv.g-service.ru/img/default/music_box.png group-title=#5 ,Russian MusicBox
+http://itv.g-service.ru/live/MB1.m3u8?cid=56
+#EXTINF:-1 tvg-name="Европа плюс HD" tvg-logo=http://itv.g-service.ru/img/default/europa_plus.png group-title=#5 ,Европа плюс HD
+http://itv.g-service.ru/live/EPlus_TV.m3u8?cid=57
+#EXTINF:-1 tvg-name="Музыка первого" tvg-logo=http://itv.g-service.ru/img/default/muzyka.png tvrec-depth=168h group-title=#5 ,Музыка первого
+http://itv.g-service.ru/live/Music_1.m3u8?cid=58
+#EXTINF:-1 tvg-name="Ru TV" tvg-logo=http://itv.g-service.ru/img/default/ru_tv.png tvrec-depth=168h group-title=#5 ,Ru TV
+http://itv.g-service.ru/live/RuTV.m3u8?cid=59
+#EXTINF:-1 tvg-name="Bridge Русский хит" tvg-logo=http://itv.g-service.ru/img/default/rusong.png group-title=#5 ,Bridge Русский хит
+http://itv.g-service.ru/live/Rusong.m3u8?cid=63
+#EXTINF:-1 tvg-name="ТНТ Music" tvg-logo=http://itv.g-service.ru/img/default/bridge.png group-title=#5 ,ТНТ Music
+http://itv.g-service.ru/live/TNT_music.m3u8?cid=64
+
+#EXTINF:-1 tvg-name="Техно 24" tvg-logo=http://itv.g-service.ru/img/default/24_techno.png tvrec-depth=168h group-title=#8 ,Техно 24
+http://itv.g-service.ru/live/T24.m3u8?cid=66
+#EXTINF:-1 tvg-name=Оружие tvg-logo=http://itv.g-service.ru/img/default/oruzhie.png tvrec-depth=168h group-title=#6 ,Оружие
+http://itv.g-service.ru/live/ORUGIE.m3u8?cid=67
+#EXTINF:-1 tvg-name="Russian Travel Guide" tvg-logo=http://itv.g-service.ru/img/default/rtg.png tvrec-depth=168h group-title=#6 ,Russian Travel Guide
+http://itv.g-service.ru/live/RTG_SD.m3u8?cid=75
+#EXTINF:-1 tvg-name=Сарафан tvg-logo=http://itv.g-service.ru/img/default/sarafan.png tvrec-depth=168h group-title=#7 ,Сарафан
+http://itv.g-service.ru/live/Sarafan.m3u8?cid=76
+
+#EXTINF:-1 tvg-name="Da Vinci" tvg-logo=http://itv.g-service.ru/img/default/da_vinci_learning.png tvrec-depth=168h group-title=#8 ,Da Vinci
+http://itv.g-service.ru/live/DaVinchi.m3u8?cid=84
+#EXTINF:-1 tvg-name="Красная линия" tvg-logo=http://itv.g-service.ru/img/default/krasnaja_linija.png group-title=#9 ,Красная линия
+http://itv.g-service.ru/live/RedLine.m3u8?cid=85
+#EXTINF:-1 tvg-name="Точка отрыва" tvg-logo=http://itv.g-service.ru/img/default/rzhd.png tvrec-depth=168h group-title=#6 ,Точка отрыва
+http://itv.g-service.ru/live/otryv.m3u8?cid=86
+
+#EXTINF:-1 tvg-name="NASA TV UHD" tvg-logo=http://itv.g-service.ru/img/default/inter_az.png group-title=#11 ,NASA TV UHD
+http://itv.g-service.ru/live/NASA_TV_HD.m3u8?cid=99
+#EXTINF:-1 tvg-name="National Geographic" tvg-logo=http://itv.g-service.ru/img/default/nat_geo.png tvrec-depth=168h group-title=#6 ,National Geographic
+http://itv.g-service.ru/live/National_Geographic_SD.m3u8?cid=112
+
+#EXTINF:-1 tvg-name=Поехали! tvg-logo=http://itv.g-service.ru/img/default/poehali.png tvrec-depth=168h group-title=#7 ,Поехали!
+http://itv.g-service.ru/live/poehali.m3u8?cid=120
+
+#EXTINF:-1 tvg-name="Viasat Explore" tvg-logo=http://itv.g-service.ru/img/default/viasat_explorer.png tvrec-depth=168h group-title=#8 ,Viasat Explore
+http://itv.g-service.ru/live/ViasatExplorer.m3u8?cid=125
+#EXTINF:-1 tvg-name="Viasat History" tvg-logo=http://itv.g-service.ru/img/default/viasat_history.png tvrec-depth=168h group-title=#6 ,Viasat History
+http://itv.g-service.ru/live/ViasatHistory.m3u8?cid=126
+#EXTINF:-1 tvg-name="Viasat Sport" tvg-logo=http://itv.g-service.ru/img/default/viasat_sport.png tvrec-depth=168h group-title=#3 ,Viasat Sport
+http://itv.g-service.ru/live/Viasat_sport.m3u8?cid=127
+
+#EXTINF:-1 tvg-name="Viasat Nature" tvg-logo=http://itv.g-service.ru/img/default/viasat_nature.png tvrec-depth=168h group-title=#6 ,Viasat Nature
+http://itv.g-service.ru/live/ViasatNature.m3u8?cid=129
+#EXTINF:-1 tvg-name="Первый Крымский" group-title=#9 ,Первый Крымский
+http://itv.g-service.ru/live/crimea24.m3u8?cid=130
+
 #EXTINF:-1 tvg-name="Тайны Галактики" tvg-logo=http://itv.g-service.ru/img/default/galaxy.png tvrec-depth=168h group-title=#2 ,Тайны Галактики
 http://itv.g-service.ru/live/Galaxy.m3u8?cid=142
 #EXTINF:-1 tvg-name="Русский Иллюзион" tvg-logo=http://itv.g-service.ru/img/default/rus_illuzion.png tvrec-depth=168h group-title=#2 ,Русский Иллюзион
 http://itv.g-service.ru/live/Illusion.m3u8?cid=143
-#EXTINF:-1 tvg-name="Иллюзион плюс" tvg-logo=http://itv.g-service.ru/img/default/illuzion_plus.png tvrec-depth=168h group-title=#2 ,Иллюзион плюс
-http://itv.g-service.ru/live/IllusionPlus.m3u8?cid=144
+
 #EXTINF:-1 tvg-name=Зоопарк tvg-logo=http://itv.g-service.ru/img/default/zoopark.png tvrec-depth=168h group-title=#6 ,Зоопарк
 http://itv.g-service.ru/live/Zoopark.m3u8?cid=145
 #EXTINF:-1 tvg-name=Ocean-TV tvg-logo=http://itv.g-service.ru/img/default/okean.png tvrec-depth=168h group-title=#6 ,Ocean-TV
@@ -299,30 +205,8 @@ http://itv.g-service.ru/live/TNT_Comedy.m3u8?cid=148
 http://itv.g-service.ru/live/Super.m3u8?cid=149
 #EXTINF:-1 tvg-name=ТРО tvg-logo=http://itv.g-service.ru/img/default/tro.png tvrec-depth=168h group-title=#10 ,ТРО
 http://itv.g-service.ru/live/TPO.m3u8?cid=150
-#EXTINF:-1 tvg-name="TRT World" tvg-logo=http://itv.g-service.ru/img/default/TRT_1.png group-title=#11 ,TRT World
-http://itv.g-service.ru/live/TRT_World.m3u8?cid=151
-#EXTINF:-1 tvg-name=Xezer tvg-logo=http://itv.g-service.ru/img/default/Xezer_TV.png group-title=#11 ,Xezer
-http://itv.g-service.ru/live/Xezer.m3u8?cid=152
-#EXTINF:-1 tvg-name=AzTV tvg-logo=http://itv.g-service.ru/img/default/aztv.png tvrec-depth=168h group-title=#11 ,AzTV
-http://itv.g-service.ru/live/AzTV.m3u8?cid=153
-#EXTINF:-1 tvg-name="Ictimai TV" tvg-logo=http://itv.g-service.ru/img/default/ictimai_az.png group-title=#11 ,Ictimai TV
-http://itv.g-service.ru/live/IctimaiTV.m3u8?cid=154
-#EXTINF:-1 tvg-name="Azad TV" tvg-logo=http://itv.g-service.ru/img/default/atv_az.png group-title=#11 ,Azad TV
-http://itv.g-service.ru/live/AzadTV.m3u8?cid=155
-#EXTINF:-1 tvg-name="Real TV" tvg-logo=http://itv.g-service.ru/img/default/ANSTV.png group-title=#11 ,Real TV
-http://itv.g-service.ru/live/InterAz.m3u8?cid=156
-#EXTINF:-1 tvg-name="Lider TV" tvg-logo=http://itv.g-service.ru/img/default/lider_az.png group-title=#11 ,Lider TV
-http://itv.g-service.ru/live/Lider.m3u8?cid=157
-#EXTINF:-1 tvg-name="Space TV" tvg-logo=http://itv.g-service.ru/img/default/utr.png group-title=#11 ,Space TV
-http://itv.g-service.ru/live/Space.m3u8?cid=158
-#EXTINF:-1 tvg-name="Казах ТВ" tvg-logo=http://itv.g-service.ru/img/default/kzTV.png group-title=#11 ,Казах ТВ
-http://itv.g-service.ru/live/KAZAKH.m3u8?cid=159
-#EXTINF:-1 tvg-name=ТНВ-планета tvg-logo=http://itv.g-service.ru/img/default/tnv.png group-title=#10 ,ТНВ-планета
-http://itv.g-service.ru/live/TNV.m3u8?cid=160
-#EXTINF:-1 tvg-name="Интер плюс" tvg-logo=http://itv.g-service.ru/img/default/inter_plus_ukr.png tvrec-depth=168h group-title=#11 ,Интер плюс
-http://itv.g-service.ru/live/InterPlus.m3u8?cid=161
-#EXTINF:-1 tvg-name=Беларусь-24 tvg-logo=http://itv.g-service.ru/img/default/belarus24.png tvrec-depth=168h group-title=#11 ,Беларусь-24
-http://itv.g-service.ru/live/Belarus24.m3u8?cid=162
+
+
 #EXTINF:-1 tvg-name="Первый канал HD" tvg-logo=http://itv.g-service.ru/img/default/pervyj_hd.png tvrec-depth=168h group-title=#1 ,Первый канал HD
 http://itv.g-service.ru/live/1KANAL_HD.m3u8?cid=163
 #EXTINF:-1 tvg-name="Россия HD" tvg-logo=http://itv.g-service.ru/img/default/rossija_hd.png tvrec-depth=168h group-title=#1 ,Россия HD
@@ -351,12 +235,6 @@ http://itv.g-service.ru/live/Football_HD.m3u8?cid=174
 http://itv.g-service.ru/live/Football2.m3u8?cid=175
 #EXTINF:-1 tvg-name="Футбол 3" tvg-logo=http://itv.g-service.ru/img/default/match-futbol-3.png tvrec-depth=168h group-title=#3 ,Футбол 3
 http://itv.g-service.ru/live/F3.m3u8?cid=176
-#EXTINF:-1 tvg-name="Матч Премьер HD" tvg-logo=http://itv.g-service.ru/img/default/ntv_nash_futbol_hd.png tvrec-depth=168h group-title=#3 ,Матч Премьер HD
-http://itv.g-service.ru/live/NashFootball_HD.m3u8?cid=177
-#EXTINF:-1 tvg-name="Футбол HD" tvg-logo=http://itv.g-service.ru/img/default/FB_HD.png tvrec-depth=168h group-title=#3 ,Футбол HD
-http://itv.g-service.ru/live/FB_HD.m3u8?cid=178
-#EXTINF:-1 tvg-name="Хоккейный HD" tvg-logo=http://itv.g-service.ru/img/default/CMusic_HD.png tvrec-depth=168h group-title=#3 ,Хоккейный HD
-http://itv.g-service.ru/live/hokkey.m3u8?cid=179
 #EXTINF:-1 tvg-name="Охотник и рыболов" tvg-logo=http://itv.g-service.ru/img/default/OIR_HD.gif tvrec-depth=168h group-title=#6 ,Охотник и рыболов
 http://itv.g-service.ru/live/OiR.m3u8?cid=180
 #EXTINF:-1 tvg-name="Дикая рыбалка HD" tvg-logo=http://itv.g-service.ru/img/default/d_rybalka.png tvrec-depth=168h group-title=#8 ,Дикая рыбалка HD
@@ -369,12 +247,9 @@ http://itv.g-service.ru/live/RTG.m3u8?cid=183
 http://itv.g-service.ru/live/TT_HD.m3u8?cid=184
 #EXTINF:-1 tvg-name="Еда HD" tvg-logo=http://itv.g-service.ru/img/default/eda_hd.png tvrec-depth=168h group-title=#6 ,Еда HD
 http://itv.g-service.ru/live/Eda_HD.m3u8?cid=185
-#EXTINF:-1 tvg-name=Сапфир tvg-logo=http://itv.g-service.ru/img/default/fox_life.png tvrec-depth=168h group-title=#2 ,Сапфир
-http://itv.g-service.ru/live/Sapfir.m3u8?cid=186
 #EXTINF:-1 tvg-name=Кинеко tvg-logo=http://itv.g-service.ru/img/default/fox_hd.png tvrec-depth=168h group-title=#2 ,Кинеко
 http://itv.g-service.ru/live/kineko.m3u8?cid=187
-#EXTINF:-1 tvg-name="Fashion One HD" tvg-logo=http://itv.g-service.ru/img/default/FashionOneHD.png group-title=#10 ,Fashion One HD
-http://itv.g-service.ru/live/Fashion_One_HD.m3u8?cid=188
+
 #EXTINF:-1 tvg-name=1HD tvg-logo=http://itv.g-service.ru/img/default/bridge_hd.png group-title=#5 ,1HD
 http://itv.g-service.ru/live/1_HD.m3u8?cid=189
 #EXTINF:-1 tvg-name="Bridge Rock" tvg-logo=http://itv.g-service.ru/img/default/iconcerts.png tvrec-depth=168h group-title=#5 ,Bridge Rock
@@ -411,99 +286,5 @@ http://itv.g-service.ru/live/animals_world.m3u8?cid=204
 http://itv.g-service.ru/live/ZNature_HD.m3u8?cid=205
 #EXTINF:-1 tvg-name="Наша Сибирь UHD" tvg-logo=http://itv.g-service.ru/img/default/sibir.png tvrec-depth=168h group-title=#8 ,Наша Сибирь UHD
 http://itv.g-service.ru/live/sibir.m3u8?cid=206
-#EXTINF:-1 tvg-name="Amedia Premium HD" tvg-logo=http://itv.g-service.ru/img/default/amedia_hd.png tvrec-depth=168h group-title=#2 ,Amedia Premium HD
-http://itv.g-service.ru/live/APremium.m3u8?cid=207
-#EXTINF:-1 tvg-name="Amedia Хит HD" tvg-logo=http://itv.g-service.ru/img/default/amedia-hit-hd.png tvrec-depth=168h group-title=#2 ,Amedia Хит HD
-http://itv.g-service.ru/live/AmHit.m3u8?cid=208
-#EXTINF:-1 tvg-name="Киномикс HD" tvg-logo=http://itv.g-service.ru/img/default/kinomixhd.png tvrec-depth=168h group-title=#2 ,Киномикс HD
-http://itv.g-service.ru/live/1HD.m3u8?cid=209
-#EXTINF:-1 tvg-name=Кинопремьера tvg-logo=http://itv.g-service.ru/img/default/kinopremhd.png tvrec-depth=168h group-title=#2 ,Кинопремьера
-http://itv.g-service.ru/live/KINO_HD.m3u8?cid=210
-#EXTINF:-1 tvg-name="Шокирующее HD" tvg-logo=http://itv.g-service.ru/img/default/shokhd.png tvrec-depth=168h group-title=#2 ,Шокирующее HD
-http://itv.g-service.ru/live/KinoPokaz1_HD.m3u8?cid=211
-#EXTINF:-1 tvg-name="Наше крутое HD" tvg-logo=http://itv.g-service.ru/img/default/nashe_krutoehd.png tvrec-depth=168h group-title=#2 ,Наше крутое HD
-http://itv.g-service.ru/live/Romantic_HD.m3u8?cid=212
-#EXTINF:-1 tvg-name="Наше Новое HD" tvg-logo=http://itv.g-service.ru/img/default/nnew.png tvrec-depth=168h group-title=#2 ,Наше Новое HD
-http://itv.g-service.ru/live/NNew.m3u8?cid=213
-#EXTINF:-1 tvg-name="Комедийное HD" tvg-logo=http://itv.g-service.ru/img/default/komediynoehd.png tvrec-depth=168h group-title=#2 ,Комедийное HD
-http://itv.g-service.ru/live/KinopokazHD2.m3u8?cid=214
-#EXTINF:-1 tvg-name="Премиальное HD" tvg-logo=http://itv.g-service.ru/img/default/premialhd.png tvrec-depth=168h group-title=#2 ,Премиальное HD
-http://itv.g-service.ru/live/Prem_HD.m3u8?cid=215
-#EXTINF:-1 tvg-name="Остросюжетное HD" tvg-logo=http://itv.g-service.ru/img/default/oszthd.png tvrec-depth=168h group-title=#2 ,Остросюжетное HD
-http://itv.g-service.ru/live/Oszt.m3u8?cid=216
-#EXTINF:-1 tvg-name="Кино ТВ HD" tvg-logo=http://itv.g-service.ru/img/default/kino-tv.png tvrec-depth=168h group-title=#2 ,Кино ТВ HD
-http://itv.g-service.ru/live/kinotv_HD.m3u8?cid=217
-#EXTINF:-1 tvg-name="Дом кино Премиум HD" tvg-logo=http://itv.g-service.ru/img/default/dom_premium.png tvrec-depth=168h group-title=#2 ,Дом кино Премиум HD
-http://itv.g-service.ru/live/dom_premium_hd.m3u8?cid=218
-#EXTINF:-1 tvg-name="Русский Роман HD" tvg-logo=http://itv.g-service.ru/img/default/rus_roman.png tvrec-depth=168h group-title=#2 ,Русский Роман HD
-http://itv.g-service.ru/live/Rus_Roman_HD.m3u8?cid=219
-#EXTINF:-1 tvg-name="Bollywood HD" tvg-logo=http://itv.g-service.ru/img/default/BollywoodHD.png tvrec-depth=168h group-title=#2 ,Bollywood HD
-http://itv.g-service.ru/live/Bollywood_HD.m3u8?cid=220
-#EXTINF:-1 tvg-name="Hollywood HD" tvg-logo=http://itv.g-service.ru/img/default/hollywood_hd.png tvrec-depth=168h group-title=#2 ,Hollywood HD
-http://itv.g-service.ru/live/MGM_HD.m3u8?cid=221
-#EXTINF:-1 tvg-name="VIP Megahit" tvg-logo=http://itv.g-service.ru/img/default/vip_megahit.png tvrec-depth=168h group-title=#2 ,VIP Megahit
-http://itv.g-service.ru/live/MegaHit.m3u8?cid=222
-#EXTINF:-1 tvg-name="VIP Premiere" tvg-logo=http://itv.g-service.ru/img/default/vip_premiere.png tvrec-depth=168h group-title=#2 ,VIP Premiere
-http://itv.g-service.ru/live/Premium.m3u8?cid=223
-#EXTINF:-1 tvg-name="VIP Comedy" tvg-logo=http://itv.g-service.ru/img/default/vip_comedy.png tvrec-depth=168h group-title=#2 ,VIP Comedy
-http://itv.g-service.ru/live/TV1000_Comedy.m3u8?cid=224
-#EXTINF:-1 tvg-name="VIP Serial" tvg-logo=http://itv.g-service.ru/img/default/ViP_Serial.png tvrec-depth=168h group-title=#2 ,VIP Serial
-http://itv.g-service.ru/live/VIPSerial.m3u8?cid=225
-#EXTINF:-1 tvg-name="Viasat Nature_History HD" tvg-logo=http://itv.g-service.ru/img/default/viasat_nature.png tvrec-depth=168h group-title=#8 ,Viasat Nature_History HD
-http://itv.g-service.ru/live/Nature_History_HD.m3u8?cid=226
-#EXTINF:-1 tvg-name="TV1000 HD" tvg-logo=http://itv.g-service.ru/img/default/tv1000.png tvrec-depth=168h group-title=#2 ,TV1000 HD
-http://itv.g-service.ru/live/TV1000_HD.m3u8?cid=227
-#EXTINF:-1 tvg-name="TV1000 Action HD" tvg-logo=http://itv.g-service.ru/img/default/tv1000_action.png tvrec-depth=168h group-title=#2 ,TV1000 Action HD
-http://itv.g-service.ru/live/TV1000_Action_HD.m3u8?cid=228
-#EXTINF:-1 tvg-name="TV1000 Русское кино HD" tvg-logo=http://itv.g-service.ru/img/default/tv1000_russkoe_kino.png tvrec-depth=168h group-title=#2 ,TV1000 Русское кино HD
-http://itv.g-service.ru/live/TV1000_RK_HD.m3u8?cid=229
-#EXTINF:-1 tvg-name="Viasat Explore HD" tvg-logo=http://itv.g-service.ru/img/default/viasat_explorer.png tvrec-depth=168h group-title=#8 ,Viasat Explore HD
-http://itv.g-service.ru/live/Viasat_Explore_HD.m3u8?cid=230
-#EXTINF:-1 tvg-name="Viasat History HD" tvg-logo=http://itv.g-service.ru/img/default/viasat_history.png tvrec-depth=168h group-title=#8 ,Viasat History HD
-http://itv.g-service.ru/live/Viasat_History_HD.m3u8?cid=231
-#EXTINF:-1 tvg-name="Viasat Nature HD" tvg-logo=http://itv.g-service.ru/img/default/viasat_nature.png tvrec-depth=168h group-title=#6 ,Viasat Nature HD
-http://itv.g-service.ru/live/Viasat_Nature_HD.m3u8?cid=232
-#EXTINF:-1 tvg-name="Viasat Sport HD" tvg-logo=http://itv.g-service.ru/img/default/viasat_sport.png tvrec-depth=168h group-title=#3 ,Viasat Sport HD
-http://itv.g-service.ru/live/VIASAT_SPORT_HD.m3u8?cid=233
-#EXTINF:-1 tvg-name="FightBox HD" tvg-logo=http://itv.g-service.ru/img/default/fightbox.png tvrec-depth=168h group-title=#3 ,FightBox HD
-http://itv.g-service.ru/live/FightBox_HD.m3u8?cid=234
-#EXTINF:-1 tvg-name="M1 Global HD" tvg-logo=http://itv.g-service.ru/img/default/m1.png tvrec-depth=168h group-title=#3 ,M1 Global HD
-http://itv.g-service.ru/live/M1_Global_HD.m3u8?cid=235
-#EXTINF:-1 tvg-name="Живи! HD" tvg-logo=http://itv.g-service.ru/img/default/zhivi.png tvrec-depth=168h group-title=#3 ,Живи! HD
-http://itv.g-service.ru/live/JIVI_HD.m3u8?cid=236
-#EXTINF:-1 tvg-name="Живи активно HD" tvg-logo=http://itv.g-service.ru/img/default/jivi_a.png tvrec-depth=168h group-title=#8 ,Живи активно HD
-http://itv.g-service.ru/live/jivi_ac.m3u8?cid=237
-#EXTINF:-1 tvg-name="365 дней HD" tvg-logo=http://itv.g-service.ru/img/default/365_dnej.png tvrec-depth=168h group-title=#9 ,365 дней HD
-http://itv.g-service.ru/live/365d.m3u8?cid=238
-#EXTINF:-1 tvg-name="Победа HD" tvg-logo=http://itv.g-service.ru/img/default/pobeda.png tvrec-depth=168h group-title=#2 ,Победа HD
-http://itv.g-service.ru/live/Pobeda_HD.m3u8?cid=239
-#EXTINF:-1 tvg-name="A1 HD" tvg-logo=http://itv.g-service.ru/img/default/a1_hd.png tvrec-depth=168h group-title=#2 ,A1 HD
-http://itv.g-service.ru/live/A1_HD.m3u8?cid=240
-#EXTINF:-1 tvg-name="A2 HD" tvg-logo=http://itv.g-service.ru/img/default/a2_hd.png tvrec-depth=168h group-title=#2 ,A2 HD
-http://itv.g-service.ru/live/A2_HD.m3u8?cid=241
-#EXTINF:-1 tvg-name="FilmBox Arthouse HD" tvg-logo=http://itv.g-service.ru/img/default/arthouse.png tvrec-depth=168h group-title=#2 ,FilmBox Arthouse HD
-http://itv.g-service.ru/live/FilmBox_Arthouse_HD.m3u8?cid=242
-#EXTINF:-1 tvg-name="Еврокино HD" tvg-logo=http://itv.g-service.ru/img/default/eurokino.png tvrec-depth=168h group-title=#3 ,Еврокино HD
-http://itv.g-service.ru/live/Eurokino_HD.m3u8?cid=243
-#EXTINF:-1 tvg-name="Кинокомедия HD" tvg-logo=http://itv.g-service.ru/img/default/kinokomediya.png tvrec-depth=168h group-title=#2 ,Кинокомедия HD
-http://itv.g-service.ru/live/Kinokomedia_HD.m3u8?cid=244
-#EXTINF:-1 tvg-name="Киносвидание HD" tvg-logo=http://itv.g-service.ru/img/default/kinosvidanie.png tvrec-depth=168h group-title=#2 ,Киносвидание HD
-http://itv.g-service.ru/live/Kinosvidanie_HD.m3u8?cid=245
-#EXTINF:-1 tvg-name="Киносемья HD" tvg-logo=http://itv.g-service.ru/img/default/kinofamily.png tvrec-depth=168h group-title=#2 ,Киносемья HD
-http://itv.g-service.ru/live/Kinosemya_HD.m3u8?cid=246
-#EXTINF:-1 tvg-name="Киноужас HD" tvg-logo=http://itv.g-service.ru/img/default/kinouzhas.png tvrec-depth=168h group-title=#2 ,Киноужас HD
-http://itv.g-service.ru/live/Kinouzhas_HD.m3u8?cid=247
-#EXTINF:-1 tvg-name="Кинохит HD" tvg-logo=http://itv.g-service.ru/img/default/kinohit.png tvrec-depth=168h group-title=#2 ,Кинохит HD
-http://itv.g-service.ru/live/Kinohit_HD.m3u8?cid=248
-#EXTINF:-1 tvg-name="Киносерия HD" tvg-logo=http://itv.g-service.ru/img/default/kinoseria.png tvrec-depth=168h group-title=#2 ,Киносерия HD
-http://itv.g-service.ru/live/kinoseria.m3u8?cid=249
-#EXTINF:-1 tvg-name="Мужское кино HD" tvg-logo=http://itv.g-service.ru/img/default/muzh_kino.png tvrec-depth=168h group-title=#2 ,Мужское кино HD
-http://itv.g-service.ru/live/MensKino_HD.m3u8?cid=250
-#EXTINF:-1 tvg-name="UHD Cinema" tvg-logo=http://itv.g-service.ru/img/default/rus_extreme.png tvrec-depth=168h group-title=#7 ,UHD Cinema
-http://itv.g-service.ru/live/RE_UHD.m3u8?cid=251
-#EXTINF:-1 tvg-name="Кино UHD" tvg-logo=http://itv.g-service.ru/img/default/kinoUHD.png tvrec-depth=168h group-title=#2 ,Кино UHD
-http://itv.g-service.ru/live/KinoUHD.m3u8?cid=252
-#EXTINF:-1 tvg-name="Сериал UHD" tvg-logo=http://itv.g-service.ru/img/default/serialUHD.png tvrec-depth=168h group-title=#2 ,Сериал UHD
-http://itv.g-service.ru/live/SerialUHD.m3u8?cid=253
-#EXTINF:-1 tvg-name="Hotbird 4K" tvg-logo=http://itv.g-service.ru/img/default/fashion_uhd.png group-title=#10 ,Hotbird 4K
-http://itv.g-service.ru/live/FO_UHD.m3u8?cid=254
+
+
