@@ -8,3 +8,27 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE_2/variant.m3u8
 #EXTINF:-1 catchup="append" tvg-logo="http://kusa.k-itv.ru/wp-content/uploads/2016/08/sts2_love.jpg" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",СТС Love (+4)
 #EXTVLCOPT:http-user-agent=SmartTV
 http://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE_4/variant.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" tvg-id="kinosemiya",Киносемья
+http://45.159.74.22/VipComedy/mono.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" tvg-id="kinosemiya",Киносемья HD
+http://api.peers.tv/timeshift/hd_kino/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NTM5NDk3ODAsImlhdCI6MTc1Mzg2MzM4MCwiY2lkIjo2LCJ1aWQiOjkzMzQzMTA4NywicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.cf5csl_fFCe3gtOv63oc9p-DEw-KljXwQigDFTmCrTw&offset=3
+#EXTINF:-1 group-title="Кино и сериалы" tvg-id="vip-comedy",VIJU+ COMEDY HD
+http://api.peers.tv/timeshift/tv1000_comedy_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NTM5NDk3ODAsImlhdCI6MTc1Mzg2MzM4MCwiY2lkIjo2LCJ1aWQiOjkzMzQzMTA4NywicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.cf5csl_fFCe3gtOv63oc9p-DEw-KljXwQigDFTmCrTw&offset=3
+#EXTINF:-1 group-title="Кино и сериалы" tvg-id="vip-megahit",VIJU+ MEGAHIT HD
+http://api.peers.tv/timeshift/tv1000_megahit_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NTM5NDk3ODAsImlhdCI6MTc1Mzg2MzM4MCwiY2lkIjo2LCJ1aWQiOjkzMzQzMTA4NywicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.cf5csl_fFCe3gtOv63oc9p-DEw-KljXwQigDFTmCrTw&offset=3
+#EXTINF:-1 group-title="Кино и сериалы" tvg-id="vip-megahit",VIJU+ MEGAHIT HD
+http://185.26.157.3:8080/live/vip_megahit_hd/mono.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" tvg-id="vip-premiere",VIJU+ PREMIERE HD
+http://api.peers.tv/timeshift/tv1000_premium_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NTM5NDk3ODAsImlhdCI6MTc1Mzg2MzM4MCwiY2lkIjo2LCJ1aWQiOjkzMzQzMTA4NywicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.cf5csl_fFCe3gtOv63oc9p-DEw-KljXwQigDFTmCrTw&offset=3
+#EXTINF:-1 group-title="Кино и сериалы" tvg-id="vip-serial",VIJU+ SERIAL HD
+http://api.peers.tv/timeshift/viasat_golf_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NTM5NDk3ODAsImlhdCI6MTc1Mzg2MzM4MCwiY2lkIjo2LCJ1aWQiOjkzMzQzMTA4NywicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.cf5csl_fFCe3gtOv63oc9p-DEw-KljXwQigDFTmCrTw&offset=3
+#EXTINF:-1 group-title="Кино и сериалы" tvg-id="vip-comedy",VIP COMEDY HD
+http://185.26.157.3:8080/live/vip_comedy_hd/mono.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" tvg-id="vip-premiere",VIP PREMIERE HD
+http://185.26.157.3:8080/live/vip_premiere_hd/mono.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" tvg-id="vip-serial",VIP SERIAL HD
+http://77.235.1.19:8000/play/a05n/index.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" tvg-id="nashe-novoe-kino",Наше новое кино
+http://178.217.72.66:8080/Nashe_Novoe_Kino/index.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" tvg-id="nashe-novoe-kino",Наше новое кино HD
+http://api.peers.tv/timeshift/nashe_novoe_kino/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NTM5NDk3ODAsImlhdCI6MTc1Mzg2MzM4MCwiY2lkIjo2LCJ1aWQiOjkzMzQzMTA4NywicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.cf5csl_fFCe3gtOv63oc9p-DEw-KljXwQigDFTmCrTw&offset=3
