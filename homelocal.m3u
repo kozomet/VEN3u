@@ -1,7 +1,7 @@
 #EXTM3U url-tvg="http://ottg.tv/epg.xml.gz"
 
 #EXTINF:0 group-title="Местные",камера:Двор
-http://192.158.4.99:1984/stream.html?src=MainHouseCam
+rtsp://192.158.4.99:8554/hall-camera
 #EXTINF:-1 catchup="append" tvg-logo="http://kusa.k-itv.ru/wp-content/uploads/2016/08/sts2_love.jpg" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",СТС Love (+2)
 #EXTVLCOPT:http-user-agent=SmartTV
 http://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE_2/variant.m3u8
